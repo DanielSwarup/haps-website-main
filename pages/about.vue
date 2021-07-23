@@ -1,13 +1,15 @@
 <template>
   <div>
-    <Header />
+    test
   </div>
 </template>
 
 <script>
 export default {
-  head: {
-    title: 'HAPS'
-  }
+  name: 'about.vue'
 }
 </script>
+
+<style scoped>
+
+</style>

@@ -1,7 +1,26 @@
 <template>
-  <div class = "head">
+  <div class="head">
     <div class="header-cont">
-      sadas
+      <div class="center-links">
+        <ul class="header-links">
+          <nav role="navigation">
+            <li>Publications</li>
+            <li>About</li>
+            <li>People</li>
+            <li>Press Releases</li>
+            <li class="join-button">
+              Join Us
+            </li>
+          </nav>
+        </ul>
+        <div class="mobile-nav">
+          <ul>
+            <li class="join-button">
+              Join Us
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
   </div>
@@ -14,6 +33,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 *{
   margin: 0;
   padding: 0;
@@ -47,9 +67,6 @@ button{
   user-select: none;
 }
 
-</style>
-
-<style scoped>
   :root {
     /* Colors: */
     --HAPS-grey: #616161;
@@ -101,16 +118,131 @@ button{
     color: var(--HAPS-dark-grey);
   }
   .head{
-    background-color: #282828;
+    background-color: var(--HAPS-blue);
+    height: auto;
   }
   .header-cont{
     width: 100%;
     height: 100px;
-    background-color: #FFFFFF;
+    background-color: var(--pure-white);
+  }
+  .center-links{
+    /*margin-top: 36px;*/
+  }
+  .header-links{
+    height: 100%;
+    display: flex;
+    float:right;
+    margin-right: 50px;
+  }
+  .header-links li{
+    display: inline;
+    list-style-type: none;
+    float:left;
+    font: var(--primary-font-style-normal) normal 600 22px var(--primary-font-family-proxima-nova);
+    letter-spacing: var(--primary-character-spacing-0);
+    text-align: left;
+    color: var(--HAPS-dark-grey);
+    opacity: 1;
+    margin: 39px 35px 0px 35px;
+
   }
   .header-logo {
     position: relative;
+    float: left;
     width:180px;
     top: -90px;
+    margin-left: 60px;
+  }
+  .join-button{
+    background-color: var(--HAPS-blue);
+    padding: 10px 20px;
+    color: var(--pure-white) !important;
+    border-radius: 8px;
+    margin-top: 29px !important;
+  }
+  .mobile-nav{
+    display: none;
+    margin-top: 30px;
+    margin-right: 40px;
+  }
+@media screen and (max-width: 1150px) {
+  .header-cont{
+    height: 80px;
+  }
+  .join-button{
+    background-color: var(--HAPS-blue);
+    padding: 6px 16px;
+    color: var(--pure-white) !important;
+    font: var(--primary-font-style-normal) normal 600 18px var(--primary-font-family-proxima-nova) !important;
+    border-radius: 8px;
+    margin-right: 40px;
+    margin-top: 32px !important;
+  }
+  .header-logo{
+    position: relative;
+    float: left;
+    width:130px;
+    top: -65px;
+    margin-left: 60px;
+  }
+  .header-links{
+    height: 100%;
+    display: flex;
+    float:right;
+    margin-right: 20px;
+  }
+  .header-links li{
+    display: inline;
+    list-style-type: none;
+    float:left;
+    font: var(--primary-font-style-normal) normal 600 18px var(--primary-font-family-proxima-nova);
+    letter-spacing: var(--primary-character-spacing-0);
+    text-align: left;
+    color: var(--HAPS-dark-grey);
+    opacity: 1;
+    margin: 39px 15px 0px 15px;
+
+  }
+}
+  @media screen and (max-width: 800px) {
+    .header-links{
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+      float: right;
+      margin: 20px 30px 0px;
+    }
+    .header-cont{
+      height: 80px;
+    }
+    .header-logo{
+      position: relative;
+      float: left;
+      width:130px;
+      top: -60px;
+      margin-left: 60px;
+    }
+    .mobile-nav li{
+      display: inline;
+      list-style-type: none;
+      float:left;
+      font: var(--primary-font-style-normal) normal 600 22px var(--primary-font-family-proxima-nova);
+      letter-spacing: var(--primary-character-spacing-0);
+      text-align: left;
+      color: var(--HAPS-dark-grey);
+      opacity: 1;
+      /*margin: 39px 35px 0px 35px;*/
+    }
+    .join-button{
+      background-color: var(--HAPS-blue);
+      padding: 8px 20px;
+      color: var(--pure-white) !important;
+      font: var(--primary-font-style-normal) normal 600 20px var(--primary-font-family-proxima-nova) !important;
+      border-radius: 8px;
+      margin-top: 0px !important;
+      margin-right: 40px;
+    }
   }
 </style>
