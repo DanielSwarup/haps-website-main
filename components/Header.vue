@@ -1,7 +1,11 @@
 <template>
   <div class="head">
+    <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
     <div class="header-cont">
       <div class="center-links">
+        <div class="logo-text">
+          HAPS
+        </div>
         <ul class="header-links">
           <nav role="navigation">
             <li>Publications</li>
@@ -22,7 +26,6 @@
         </div>
       </div>
     </div>
-    <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
   </div>
 </template>
 
@@ -34,6 +37,10 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+@font-face {
+  font-family: Proxima Nova;
+  src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+}
 *{
   margin: 0;
   padding: 0;
@@ -118,22 +125,40 @@ button{
     color: var(--HAPS-dark-grey);
   }
   .head{
-    background-color: var(--HAPS-blue);
-    height: auto;
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    min-height: 150px;
+    overflow: hidden;
+    z-index: 10 !important;
+  }
+  .logo-text{
+    color: var(--HAPS-dark-grey);
+    float:left;
+    font: var(--primary-font-style-normal) normal 600 65px var(--primary-font-family-proxima-nova);
+    letter-spacing: var(--primary-character-spacing-0);
+    text-align: left;
+    opacity: 1;
+    margin: 0;
+    position: relative;
+    top: 5px;
   }
   .header-cont{
     width: 100%;
-    height: 100px;
     background-color: var(--pure-white);
+    overflow: visible;
   }
   .center-links{
-    /*margin-top: 36px;*/
+    height: 100%;
+    overflow: hidden;
   }
   .header-links{
     height: 100%;
     display: flex;
     float:right;
     margin-right: 50px;
+  }
+  .header-links nav{
+    height: auto;
   }
   .header-links li{
     display: inline;
@@ -144,31 +169,32 @@ button{
     text-align: left;
     color: var(--HAPS-dark-grey);
     opacity: 1;
-    margin: 39px 35px 0px 35px;
-
+    margin: 30px 35px 0 35px;
   }
   .header-logo {
     position: relative;
     float: left;
-    width:180px;
-    top: -90px;
-    margin-left: 60px;
+    width:160px;
+    top: -15px;
+    margin: 20px 20px 0 60px;
   }
   .join-button{
     background-color: var(--HAPS-blue);
     padding: 10px 20px;
     color: var(--pure-white) !important;
     border-radius: 8px;
-    margin-top: 29px !important;
+    margin-top: 20px !important;
   }
   .mobile-nav{
     display: none;
     margin-top: 30px;
     margin-right: 40px;
   }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
   .header-cont{
-    height: 80px;
+    width: 100%;
+    background-color: var(--pure-white);
+    overflow: visible;
   }
   .join-button{
     background-color: var(--HAPS-blue);
@@ -177,14 +203,24 @@ button{
     font: var(--primary-font-style-normal) normal 600 18px var(--primary-font-family-proxima-nova) !important;
     border-radius: 8px;
     margin-right: 40px;
-    margin-top: 32px !important;
+    margin-top: 15px !important;
+  }
+  .logo-text{
+    font: var(--primary-font-style-normal) normal 600 45px var(--primary-font-family-proxima-nova);
+    letter-spacing: var(--primary-character-spacing-0);
+    text-align: left;
+    opacity: 1;
+    margin: 0;
+    position: relative;
+    top:15px;
   }
   .header-logo{
     position: relative;
     float: left;
     width:130px;
-    top: -65px;
+    /*top: -65px;*/
     margin-left: 60px;
+    z-index: 999 !important;
   }
   .header-links{
     height: 100%;
@@ -196,23 +232,23 @@ button{
     display: inline;
     list-style-type: none;
     float:left;
-    font: var(--primary-font-style-normal) normal 600 18px var(--primary-font-family-proxima-nova);
+    font: var(--primary-font-style-normal) normal 600 17px var(--primary-font-family-proxima-nova);
     letter-spacing: var(--primary-character-spacing-0);
     text-align: left;
     color: var(--HAPS-dark-grey);
     opacity: 1;
-    margin: 39px 15px 0px 15px;
+    margin: 20px 20px 15px 15px;
 
   }
 }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 950px) {
     .header-links{
       display: none;
     }
     .mobile-nav {
       display: block;
       float: right;
-      margin: 20px 30px 0px;
+      margin: 20px 30px 0;
     }
     .header-cont{
       height: 80px;
@@ -241,7 +277,7 @@ button{
       color: var(--pure-white) !important;
       font: var(--primary-font-style-normal) normal 600 20px var(--primary-font-family-proxima-nova) !important;
       border-radius: 8px;
-      margin-top: 0px !important;
+      margin-top: 0 !important;
       margin-right: 40px;
     }
   }
