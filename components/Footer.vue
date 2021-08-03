@@ -7,7 +7,10 @@
       </div>
     </div>
     <div class="haps-links">
-      Test
+      <div class="footer-title-links">
+        HIGH ALTITUDE PLATFORM STATION
+      </div>
+      <hr>
     </div>
     <div class="haps-links">
       Test
@@ -37,5 +40,17 @@ export default {
   }
   .haps-links{
     float:left;
+  }
+  .footer-title-links{
+    width: 300px;
+    font: var(--primary-font-style-normal) normal 600 17px var(--primary-font-family-proxima-nova);
+    text-align: left;
+    /*font: normal normal 600 17px/21px Proxima Nova;*/
+    letter-spacing: 6px;
+    color: #707070;
+    opacity: 1;
+  }
+  .haps-links hr{
+    border: 1px solid #707070;
   }
 </style>
