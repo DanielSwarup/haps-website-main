@@ -3,6 +3,7 @@
     <Header />
     <div class="landing-cont">
       <LandingSection />
+      <ResearchQuestion />
     </div>
     <Footer />
   </div>
@@ -10,8 +11,9 @@
 
 <script>
 import LandingSection from '~/components/LandingSection'
+import ResearchQuestion from '~/components/ResearchQuestion'
 export default {
-  components: { LandingSection },
+  components: { LandingSection, ResearchQuestion },
   head: {
     title: 'HAPS'
   }

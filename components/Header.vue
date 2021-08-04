@@ -1,5 +1,8 @@
 <template>
   <div class="head">
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proxima+Nova" type="text/css" data-noprefix>
+    </head>
     <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
     <div class="header-cont">
       <div class="center-links">
@@ -36,11 +39,11 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
-@font-face {
-  font-family: Proxima Nova;
-  src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');
-}
+/*@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');*/
+/*@font-face {*/
+/*  font-family: Proxima Nova;*/
+/*  src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');*/
+/*}*/
 *{
   margin: 0;
   padding: 0;

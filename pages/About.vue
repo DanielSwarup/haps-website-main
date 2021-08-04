@@ -1,12 +1,13 @@
 <template>
   <div>
-    test
+    <Header />
+    <Footer />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'about.vue'
+  name: 'About'
 }
 </script>
 
