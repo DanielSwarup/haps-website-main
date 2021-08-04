@@ -1,7 +1,7 @@
 <template>
   <div class="head">
     <head>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proxima+Nova" type="text/css" data-noprefix>
+      <link rel="stylesheet" href="https://use.typekit.net/jzu6vuf.css">
     </head>
     <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
     <div class="header-cont">
