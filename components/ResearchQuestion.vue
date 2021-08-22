@@ -79,7 +79,7 @@ export default {
     background-color: #F0F6FA;
   }
   .information-cont{
-    margin: 30px 200px 0px 100px;
+    margin: 30px 200px 0 100px;
     overflow: visible;
   }
   .mini-top{
@@ -109,7 +109,7 @@ export default {
     margin-top: 30px;
     width: 200px;
     height: 60px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
     justify-content: center;
@@ -141,7 +141,7 @@ export default {
       width: 800px;
     }
     .information-cont{
-      margin: 30px 100px 0px 100px;
+      margin: 30px 100px 0 100px;
     }
     .mini-top{
       font: normal normal 400 12px Proxima Nova;
@@ -171,7 +171,7 @@ export default {
       width: 750px;
     }
     .information-cont{
-      margin: 30px 75px 0px 75px;
+      margin: 30px 75px 0 75px;
     }
     .mini-top{
       font: normal normal 400 12px Proxima Nova;

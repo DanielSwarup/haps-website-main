@@ -1,19 +1,27 @@
 <template>
   <div>
     <Header />
+    <div class="bottom-line" />
     <div class="landing-cont">
       <LandingSection />
       <ResearchQuestion />
+      <SmallPressReleases />
+      <TeamCarousel />
+      <Location />
+      <Footer />
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
 import LandingSection from '~/components/LandingSection'
 import ResearchQuestion from '~/components/ResearchQuestion'
+import SmallPressReleases from '~/components/SmallPressReleases'
+import Location from '~/components/Location'
+import TeamCarousel from '~/components/TeamCarousel'
+
 export default {
-  components: { LandingSection, ResearchQuestion },
+  components: { LandingSection, ResearchQuestion, SmallPressReleases, Location, TeamCarousel },
   head: {
     title: 'HAPS'
   }
@@ -23,6 +31,15 @@ export default {
   .landing-cont{
     position: relative;
     top: -100px;
+    background: white;
+  }
+  .bottom-line{
+    width: 100%;
+    border: 2px solid #36598F;
+    opacity: 1;
+    position: relative;
+    top: -100px;
+    z-index: 0 !important;
   }
 
 </style>

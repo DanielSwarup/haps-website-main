@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="bottom-line" />
-    <div class="about-cont">
+    <div class="people-cont">
       <Location />
     </div>
     <Footer />
@@ -12,17 +12,12 @@
 <script>
 import Location from '~/components/Location'
 export default {
-  name: 'About',
+  name: 'People',
   components: { Location }
 }
 </script>
 
 <style scoped>
-.about-cont{
-  position: relative;
-  top: -100px;
-  background: white;
-}
 .bottom-line{
   width: 100%;
   border: 2px solid #36598F;
@@ -30,5 +25,8 @@ export default {
   position: relative;
   top: -100px;
   z-index: 0 !important;
+}
+.people-cont{
+
 }
 </style>

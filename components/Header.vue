@@ -3,21 +3,35 @@
     <head>
       <link rel="stylesheet" href="https://use.typekit.net/jzu6vuf.css">
     </head>
-    <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
+    <NuxtLink to="/">
+      <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
+    </NuxtLink>
     <div class="header-cont">
       <div class="center-links">
         <div class="logo-text">
-          HAPS
+          <NuxtLink to="/">
+            HAPS
+          </NuxtLink>
         </div>
         <ul class="header-links">
           <nav role="navigation">
             <li>Publications</li>
-            <li>About</li>
-            <li>People</li>
-            <li>Press Releases</li>
-            <li class="join-button">
-              Join Us
+            <li>
+              <NuxtLink to="/about">
+                About
+              </NuxtLink>
             </li>
+            <li>
+              <NuxtLink to="/people">
+                People
+              </NuxtLink>
+            </li>
+            <li>Press Releases</li>
+            <NuxtLink to="/join">
+              <li class="join-button">
+                Join Us
+              </li>
+            </NuxtLink>
           </nav>
         </ul>
         <div class="mobile-nav">
@@ -39,11 +53,11 @@ export default {
 </script>
 
 <style>
-/*@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');*/
-/*@font-face {*/
-/*  font-family: Proxima Nova;*/
-/*  src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');*/
-/*}*/
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+@font-face {
+  font-family: Proxima Nova;
+  src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+}
 *{
   margin: 0;
   padding: 0;
@@ -145,6 +159,10 @@ button{
     position: relative;
     top: 5px;
   }
+  .logo-text a{
+    text-decoration: none;
+    color: var(--HAPS-dark-grey);
+  }
   .header-cont{
     width: 100%;
     background-color: var(--pure-white);
@@ -173,6 +191,10 @@ button{
     color: var(--HAPS-dark-grey);
     opacity: 1;
     margin: 30px 35px 0 35px;
+  }
+  .header-links a{
+    text-decoration: none;
+    color: var(--HAPS-dark-grey);
   }
   .header-logo {
     position: relative;
@@ -223,7 +245,7 @@ button{
     width:130px;
     /*top: -65px;*/
     margin-left: 60px;
-    z-index: 999 !important;
+    z-index: 99 !important;
   }
   .header-links{
     height: 100%;
@@ -284,4 +306,5 @@ button{
       margin-right: 40px;
     }
   }
+
 </style>
