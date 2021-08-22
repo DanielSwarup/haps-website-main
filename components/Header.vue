@@ -1,7 +1,7 @@
 <template>
   <div class="head">
     <head>
-      <link rel="stylesheet" href="https://use.typekit.net/jzu6vuf.css">
+      <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet" type="text/css" data-noprefix>
     </head>
     <NuxtLink to="/">
       <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
@@ -53,11 +53,11 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+/*@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 @font-face {
   font-family: Proxima Nova;
   src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');
-}
+}*/
 *{
   margin: 0;
   padding: 0;

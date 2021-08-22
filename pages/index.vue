@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="background-white">
     <Header />
     <div class="bottom-line" />
     <div class="landing-cont">
@@ -8,8 +8,8 @@
       <SmallPressReleases />
       <TeamCarousel />
       <Location />
-      <Footer />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -39,7 +39,9 @@ export default {
     opacity: 1;
     position: relative;
     top: -100px;
-    z-index: 0 !important;
+    z-index: 5 !important;
   }
-
+  .background-white{
+    background: white;
+  }
 </style>

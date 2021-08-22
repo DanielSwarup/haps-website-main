@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="background-white">
     <Header />
     <div class="bottom-line" />
     <div class="people-cont">
@@ -18,15 +18,19 @@ export default {
 </script>
 
 <style scoped>
+.background-white{
+  background: white;
+}
 .bottom-line{
   width: 100%;
   border: 2px solid #36598F;
   opacity: 1;
   position: relative;
   top: -100px;
-  z-index: 0 !important;
+  z-index: 5 !important;
 }
 .people-cont{
-
+  position: relative;
+  top: -100px;
 }
 </style>

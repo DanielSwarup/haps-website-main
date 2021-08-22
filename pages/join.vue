@@ -33,6 +33,6 @@ export default {
     opacity: 1;
     position: relative;
     top: -100px;
-    z-index: 0 !important;
+    z-index: 5 !important;
   }
 </style>

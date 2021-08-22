@@ -86,7 +86,7 @@ export default {
   }
   .location-cont{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
   .location-head{
     width: 100%;
