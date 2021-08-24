@@ -84,29 +84,29 @@ export default {
   }
   .mini-top{
     text-align: left;
-    font: normal normal 600 15px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 15px var(--primary-font-family-proxima-nova);
     letter-spacing: 2px;
     color: #394248;
     opacity: 1;
   }
   .research-question-text{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: left;
-    font: normal normal normal 50px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 50px var(--primary-font-family-proxima-nova);
     letter-spacing: 1px;
     color: #394248;
     opacity: 1;
   }
   .research-brief{
-    margin-top: 33px;
+    margin-top: 15px;
     text-align: left;
-    font: normal normal normal 20px/30px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px/30px var(--primary-font-family-proxima-nova);
     letter-spacing: 1px;
     color: #394248;
     opacity: 1;
   }
   .more-button{
-    margin-top: 30px;
+    margin-top: 25px;
     width: 200px;
     height: 60px;
     background: #FFFFFF 0 0 no-repeat padding-box;
@@ -118,7 +118,7 @@ export default {
   .more-button p{
     opacity: 1;
     text-align: left;
-    font: normal normal 600 18px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
     letter-spacing: 2px;
     color: #394248;
   }
@@ -144,15 +144,15 @@ export default {
       margin: 30px 100px 0 100px;
     }
     .mini-top{
-      font: normal normal 400 12px Proxima Nova;
+      font: var(--primary-font-style-normal) normal 400 12px var(--primary-font-family-proxima-nova);
     }
     .research-question-text{
       margin-top: 15px;
-      font: normal normal normal 45px Proxima Nova;
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 45px var(--primary-font-family-proxima-nova);
     }
     .research-brief{
       margin-top: 25px;
-      font: normal normal normal 22px Proxima Nova;
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 22px var(--primary-font-family-proxima-nova);
     }
   }
   @media screen and (max-width: 1550px) {
@@ -174,15 +174,15 @@ export default {
       margin: 30px 75px 0 75px;
     }
     .mini-top{
-      font: normal normal 400 12px Proxima Nova;
+      font: var(--primary-font-style-normal) normal 400 12px var(--primary-font-family-proxima-nova);
     }
     .research-question-text{
       margin-top: 10px;
-      font: normal normal normal 40px Proxima Nova;
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 40px var(--primary-font-family-proxima-nova);
     }
     .research-brief{
       margin-top: 15px;
-      font: normal normal normal 20px Proxima Nova;
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px var(--primary-font-family-proxima-nova);
     }
     .more-button{
       margin-top: 30px;
@@ -190,7 +190,7 @@ export default {
       height: 60px;
     }
     .more-button p{
-      font: normal normal 600 18px Proxima Nova;
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
     }
     .more-button svg{
       height: 18px;

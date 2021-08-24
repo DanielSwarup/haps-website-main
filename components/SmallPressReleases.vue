@@ -99,7 +99,7 @@ export default {
     margin-top: 40px;
     width: 200px;
     height: 60px;
-    background: #FFFFFF 0 0 no-repeat padding-box;
+    background: var(--pure-white) 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
     justify-content: center;
@@ -108,9 +108,9 @@ export default {
   .view-button p{
     opacity: 1;
     text-align: left;
-    font: normal normal 600 18px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
     letter-spacing: 2px;
-    color: #394248;
+    color: var(--HAPS-dark-grey);
   }
   .view-button svg{
     height: 18px;
@@ -121,9 +121,9 @@ export default {
     margin-left: 40px;
     width: auto;
     text-align: left;
-    font: normal normal normal 55px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
-    color: #394248;
+    color: var(--HAPS-dark-grey);
     opacity: 1;
   }
   .highlight-text{
@@ -145,23 +145,21 @@ export default {
   .single-tile-date{
     margin-top: 5px;
     text-align: left;
-    font: normal normal bold 16px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 16px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
     color: #394248CC;
     opacity: 1;
   }
   .single-tile-header {
-    margin-top: 5px;
     text-align: left;
-    font: normal normal normal 40px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 40px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
-    color: #394248;
+    color: var(--HAPS-dark-grey);
     opacity: 1;
   }
   .single-tile-author{
-    margin-top: 5px;
     text-align: left;
-    font: normal normal 400 19px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 19px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
     color: #394248CC;
     opacity: 1;

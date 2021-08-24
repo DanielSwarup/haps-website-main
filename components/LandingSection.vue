@@ -15,7 +15,7 @@
           We specialise in researching high altitude platform applications to improve digital access to connect people and things. Researching platform modelling and simulation, multiple platform coordination, technology and policy innovation, and platform issues.
         </div>
         <div class="landing-sub-text-small">
-          <div>
+          <div class="our-work-text">
             Our Work
             <div class="hor-line" />
           </div>
@@ -73,7 +73,7 @@ export default {
   }
   .landing-vert-text{
     float: left;
-    font: var(--primary-font-style-normal) normal 300 18px var(--primary-font-family-proxima-nova);
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 18px var(--primary-font-family-proxima-nova);
     letter-spacing: var(--primary-character-spacing-0);
     color: var(--pure-white);
     text-align: left;
@@ -107,7 +107,7 @@ export default {
   }
   .landing-main-text{
     float: left;
-    font: normal normal normal 60px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 60px var(--primary-font-family-proxima-nova);
     letter-spacing: var(--primary-character-spacing-0);
     color: var(--pure-white);
     text-align: left;
@@ -115,20 +115,25 @@ export default {
   }
   .landing-sub-text{
     margin-top: 20px;
+    padding-bottom: 5px;
     float: left;
     letter-spacing: var(--primary-character-spacing-0);
     color: var(--pure-white);
     text-align: left;
-    font: normal normal 100 21px/25px Proxima Nova;
+    font: var(--primary-font-style-normal) normal 100 21px/25px var(--primary-font-family-proxima-nova);
     opacity: 1;
   }
+  .our-work-text{
+    padding-bottom: 5px;
+  }
   .landing-sub-text-small{
+    padding-bottom: 5px;
     margin-top: 35px;
     float: left;
     letter-spacing: var(--primary-character-spacing-0);
     color: var(--pure-white);
     text-align: left;
-    font: normal normal 100 21px/25px Proxima Nova;
+    font: var(--primary-font-style-normal) normal 100 21px/25px var(--primary-font-family-proxima-nova);
     opacity: 1;
   }
   .link-buttons{
@@ -136,7 +141,7 @@ export default {
     margin: 20px 60px 0 0;
     width: 236px;
     height: auto;
-    background: #FFFFFF 0 0 no-repeat padding-box;
+    background: var(--pure-white) 0 0 no-repeat padding-box;
     opacity: 1;
   }
   .link-buttons svg{
@@ -147,7 +152,7 @@ export default {
   .link-buttons p{
     float: left;
     text-align: left;
-    font: normal normal 300 18px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 18px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
     color: #616161;
     opacity: 1;
@@ -210,7 +215,7 @@ export default {
       font-size: 40px;
     }
     .landing-vert-text{
-      font: var(--primary-font-style-normal) normal 300 15px var(--primary-font-family-proxima-nova);
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 15px var(--primary-font-family-proxima-nova);
     }
     .landing-sub-text {
       font-size: 18px;
@@ -232,7 +237,7 @@ export default {
     .link-buttons p{
       float: left;
       text-align: left;
-      font: normal normal 300 17px Proxima Nova;
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 17px var(--primary-font-family-proxima-nova);
       letter-spacing: 0;
       color: #616161;
       opacity: 1;
@@ -272,7 +277,7 @@ export default {
     .link-buttons p{
       float: left;
       text-align: left;
-      font: normal normal 300 17px Proxima Nova;
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 17px var(--primary-font-family-proxima-nova);
       letter-spacing: 0;
       color: #616161;
       opacity: 1;
@@ -288,7 +293,7 @@ export default {
       font-size: 35px;
     }
     .landing-vert-text{
-      font: var(--primary-font-style-normal) normal 300 12px var(--primary-font-family-proxima-nova);
+      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 12px var(--primary-font-family-proxima-nova);
     }
     .landing-sub-text {
       font-size: 16px;

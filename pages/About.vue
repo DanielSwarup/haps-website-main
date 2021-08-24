@@ -28,8 +28,8 @@ export default {
   border: 2px solid #36598F;
   opacity: 1;
   position: relative;
-  top: -100px;
-  z-index: 5 !important;
+  top: -85px;
+  z-index: 1 !important;
 }
 .background-white{
   background-color: white;

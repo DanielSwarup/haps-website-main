@@ -91,7 +91,7 @@ export default {
   .location-head{
     width: 100%;
     text-align: center;
-    font: normal normal normal 55px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
     color: #394248;
     opacity: 1;
@@ -103,7 +103,7 @@ export default {
   .location-info{
     float: left;
     text-align: left;
-    font: normal normal normal 32px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 32px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
     color: #394248;
     opacity: 1;
@@ -125,7 +125,7 @@ export default {
   .more-button p{
     opacity: 1;
     text-align: left;
-    font: normal normal 600 18px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
     letter-spacing: 2px;
     color: #394248;
   }

@@ -1,7 +1,7 @@
 <template>
   <div class="head">
     <head>
-      <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet" type="text/css" data-noprefix>
+      <link rel="stylesheet" href="https://use.typekit.net/jzu6vuf.css">
     </head>
     <NuxtLink to="/">
       <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
@@ -53,11 +53,13 @@ export default {
 </script>
 
 <style>
-/*@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+@import url("https://use.typekit.net/jzu6vuf.css");
+
+/*@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');*/
 @font-face {
   font-family: Proxima Nova;
-  src: url('https://fonts.googleapis.com/css?family=Proxima+Nova');
-}*/
+  src: url('https://use.typekit.net/jzu6vuf.css');
+}
 *{
   margin: 0;
   padding: 0;
@@ -98,11 +100,13 @@ button{
     --HAPS-blue-light: #9ACBEC;
     --HAPS-blue: #36598F;
     --pure-white: #FFFFFF;
+    --HAPS-light-grey: #F0F6FA;
 
     /* Font/text values */
-    --primary-font-family-proxima-nova: Proxima Nova;
+    --primary-font-family-proxima-nova: proxima-nova;
     --primary-font-style-normal: normal;
     --primary-font-weight-normal: normal;
+    --primary-font-weight-bold: 600;
     --primary-font-size-20: 20px;
     --primary-font-size-40: 40px;
     --primary-font-size-61: 61px;
@@ -202,6 +206,7 @@ button{
     width:160px;
     top: -15px;
     margin: 20px 20px 0 60px;
+    z-index: 99 !important;
   }
   .join-button{
     background-color: var(--HAPS-blue);

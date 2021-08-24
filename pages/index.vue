@@ -39,7 +39,6 @@ export default {
     opacity: 1;
     position: relative;
     top: -100px;
-    z-index: 5 !important;
   }
   .background-white{
     background: white;

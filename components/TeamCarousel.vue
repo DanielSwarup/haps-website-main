@@ -69,8 +69,9 @@ export default {
     margin: 35px 250px 70px;
   }
   .team-header{
+    padding-bottom: 10px;
     text-align: left;
-    font: normal normal normal 55px/68px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px/68px var(--primary-font-family-proxima-nova);
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -78,7 +79,7 @@ export default {
   .member-cont{
     width: 1445px;
     min-height: 100px;
-    background: #F0F6FA 0% 0% no-repeat padding-box;
+    background:var(--HAPS-light-grey) 0% 0% no-repeat padding-box;
     opacity: 1;
   }
   .member-info{
@@ -99,8 +100,9 @@ export default {
     margin-bottom: 70px;
   }
   .member-name{
+    padding-bottom: 5px;
     text-align: left;
-    font: normal normal normal 40px/49px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 40px/49px var(--primary-font-family-proxima-nova);
     letter-spacing: 0px;
     color: #394248;
     opacity: 1;
@@ -110,7 +112,7 @@ export default {
     margin-bottom: 20px;
     width: 650px;
     text-align: left;
-    font: normal normal normal 20px/30px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px/30px var(--primary-font-family-proxima-nova);
     letter-spacing: 0.3px;
     color: #394248;
     opacity: 1;
@@ -119,7 +121,7 @@ export default {
     margin-top: 30px;
     width: 200px;
     height: 60px;
-    background: #FFFFFF 0 0 no-repeat padding-box;
+    background: var(--pure-white) 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
     justify-content: center;
@@ -128,7 +130,7 @@ export default {
   .more-button p{
     opacity: 1;
     text-align: left;
-    font: normal normal 600 18px Proxima Nova;
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
     letter-spacing: 2px;
     color: #394248;
   }
