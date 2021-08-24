@@ -66,7 +66,8 @@ export default {
     width: 100%;
     background: #36598F;
   }
-  .side-text-cont{
+  .side-text-cont {
+    padding-left: 30px;
     transform: rotate(0.25turn) translate(50%,-100%);
     height: auto;
     width: 350px;
@@ -92,12 +93,12 @@ export default {
   }
   .content-cont{
     float:left;
-    margin: 100px 50px 20px;
+    margin: 75px 50px 20px;
     width: auto;
   }
   .right-cont{
     float:left;
-    margin: 100px 0 0 0;
+    margin: 75px 0 0 0;
     width: auto;
   }
   .landing-text-cont{
@@ -138,7 +139,7 @@ export default {
   }
   .link-buttons{
     float: left;
-    margin: 20px 60px 0 0;
+    margin: 20px 60px 30px 0;
     width: 236px;
     height: auto;
     background: var(--pure-white) 0 0 no-repeat padding-box;
@@ -167,6 +168,7 @@ export default {
     animation: float 6s ease-in-out infinite;
   }
   .side-text-cont-picture{
+    padding-left: 30px;
     transform: rotate(0.25turn) translate(50%,-450px);
     height: auto;
     width: 350px;

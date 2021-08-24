@@ -36,6 +36,7 @@ export default {
   opacity: 1;
   background: linear-gradient(to top, #9ACBEC 50%, transparent 50%);
 }
+
 .section-blob-cont{
   margin-top: 150px;
   width: 100%;

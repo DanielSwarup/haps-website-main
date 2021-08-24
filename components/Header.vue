@@ -15,7 +15,11 @@
         </div>
         <ul class="header-links">
           <nav role="navigation">
-            <li>Publications</li>
+            <li>
+              <NuxtLink to="/publications">
+                Publications
+              </NuxtLink>
+            </li>
             <li>
               <NuxtLink to="/about">
                 About
@@ -26,7 +30,11 @@
                 People
               </NuxtLink>
             </li>
-            <li>Press Releases</li>
+            <li>
+              <NuxtLink to="/press-releases">
+                Press Releases
+              </NuxtLink>
+            </li>
             <NuxtLink to="/join">
               <li class="join-button">
                 Join Us

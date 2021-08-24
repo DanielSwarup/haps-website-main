@@ -2,20 +2,20 @@
   <div class="background-white">
     <Header />
     <div class="bottom-line" />
-    <div class="people-cont">
-      <Team />
-      <Location />
+    <div class="publication-cont">
+      <SmallBanner />
     </div>
+    <Publication />
     <Footer />
   </div>
 </template>
 
 <script>
-import Location from '~/components/Location'
-import Team from '~/components/Team'
+import SmallBanner from '~/components/SmallBanner'
+import Publication from '~/components/Publication'
 export default {
-  name: 'People',
-  components: { Location, Team }
+  name: 'Publications',
+  components: { SmallBanner, Publication }
 }
 </script>
 
@@ -30,8 +30,8 @@ export default {
   position: relative;
   top: -85px;
 }
-.people-cont{
+.publication-cont{
   position: relative;
-  top: -100px;
+  top: -85px;
 }
 </style>
