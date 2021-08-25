@@ -3,7 +3,9 @@
     <div class="centered">
       <div class="footer-logo">
         <div>
-          <img src="~/assets/logo.png" alt="HAPS Logo">
+          <NuxtLink to="/">
+            <img src="~/assets/logo.png" alt="HAPS Logo">
+          </NuxtLink>
           <ul class="social-links">
             <li>
               <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
@@ -80,19 +82,29 @@
         <div class="footer-list">
           <ul>
             <li class="li-links">
-              Publications
+              <NuxtLink to="/publications">
+                Publications
+              </NuxtLink>
             </li>
             <li class="li-links">
-              About
+              <NuxtLink to="about">
+                About
+              </NuxtLink>
             </li>
             <li class="li-links">
-              People
+              <NuxtLink to="/people">
+                People
+              </NuxtLink>
             </li>
             <li class="li-links">
-              Join Us
+              <NuxtLink to="join">
+                Join Us
+              </NuxtLink>
             </li>
             <li class="li-links">
-              Press Releases
+              <NuxtLink to="press-releases">
+                Press Releases
+              </NuxtLink>
             </li>
           </ul>
         </div>
@@ -205,9 +217,26 @@ export default {
   .li-links{
     padding-top: 20px;
   }
-  .li-links a{
-    text-decoration: none !important;
+  .li-links a {
+    text-decoration: none;
     color: #707070;
+    overflow: hidden;
+    position: relative;
+  }
+  .li-links a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--HAPS-blue-light);
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+  }
+  .li-links a:hover:before {
+    visibility: visible;
+    height: 2px;
   }
   .social-links{
     display: flex;

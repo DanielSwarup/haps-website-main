@@ -14,35 +14,37 @@
         <div class="research-brief">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis magna a elit volutpat varius. Nulla at urna at libero vehicula auctor ut in velit. Donec nec fringilla lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim metus, tempor vel condimentum in, ultricies vel libero. Praesent aliquam elit facilisis orci tempor, a volutpat elit auctor. Duis et sem vitae odio bibendum porta. Donec id ultricies nibh. Suspendisse a elit vel justo mattis elementum vel quis felis. Nulla vel convallis arcu.
         </div>
-        <div class="more-button">
-          <p>
-            About Us
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
-              <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
-                <path
-                  id="Path_1"
-                  data-name="Path 1"
-                  d="M7.5,18h21"
-                  fill="none"
-                  stroke="#616161"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-                <path
-                  id="Path_2"
-                  data-name="Path 2"
-                  d="M18,7.5,28.5,18,18,28.5"
-                  fill="none"
-                  stroke="#616161"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-              </g>
-            </svg>
-          </p>
-        </div>
+        <NuxtLink to="/about">
+          <div class="view-button">
+            <p>
+              About Us
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
+                <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
+                  <path
+                    id="Path_1"
+                    data-name="Path 1"
+                    d="M7.5,18h21"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                  <path
+                    id="Path_2"
+                    data-name="Path 2"
+                    d="M18,7.5,28.5,18,18,28.5"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                </g>
+              </svg>
+            </p>
+          </div>
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -105,22 +107,28 @@ export default {
     color: #394248;
     opacity: 1;
   }
-  .more-button{
-    margin-top: 25px;
+  .view-button{
+    float: left;
+    margin-right: 300px;
+    margin-top: 40px;
     width: 200px;
     height: 60px;
-    background: #FFFFFF 0 0 no-repeat padding-box;
+    background: var(--pure-white) 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .more-button p{
+  .view-button p{
     opacity: 1;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
     letter-spacing: 2px;
-    color: #394248;
+    color: var(--HAPS-dark-grey);
+  }
+  .view-button svg{
+    height: 18px;
+    transform: translateY(4px);
   }
   .more-button svg{
     height: 18px;

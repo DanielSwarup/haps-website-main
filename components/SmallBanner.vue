@@ -20,12 +20,12 @@ export default {
     position: relative;
   }
   .small-banner-text{
-    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 50px var(--primary-font-family-proxima-nova);
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) clamp(2rem, 5vw, 3.5rem) var(--primary-font-family-proxima-nova);
     letter-spacing: var(--primary-character-spacing-0);
     color: var(--pure-white);
     text-align: left;
     position: absolute;
-    bottom: 10px;
-    left: 200px;
+    bottom: clamp(1px, 10%, 50px);
+    left: clamp(10px, 10%, 200px);
   }
 </style>

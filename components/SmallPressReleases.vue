@@ -9,35 +9,37 @@
           <span class="highlight-text"> Press Releases</span>
         </div>
       </div>
-      <div class="view-button">
-        <p>
-          View All
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
-            <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
-              <path
-                id="Path_1"
-                data-name="Path 1"
-                d="M7.5,18h21"
-                fill="none"
-                stroke="#616161"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-              />
-              <path
-                id="Path_2"
-                data-name="Path 2"
-                d="M18,7.5,28.5,18,18,28.5"
-                fill="none"
-                stroke="#616161"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-              />
-            </g>
-          </svg>
-        </p>
-      </div>
+      <NuxtLink to="press-releases">
+        <div class="view-button">
+          <p>
+            View All
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
+              <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
+                <path
+                  id="Path_1"
+                  data-name="Path 1"
+                  d="M7.5,18h21"
+                  fill="none"
+                  stroke="#616161"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="3"
+                />
+                <path
+                  id="Path_2"
+                  data-name="Path 2"
+                  d="M18,7.5,28.5,18,18,28.5"
+                  fill="none"
+                  stroke="#616161"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="3"
+                />
+              </g>
+            </svg>
+          </p>
+        </div>
+      </NuxtLink>
     </div>
     <div class="press-release-tiles">
       <ul>

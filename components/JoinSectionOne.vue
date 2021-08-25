@@ -23,14 +23,14 @@ export default {
 
 <style scoped>
 .section-cont{
-  margin: 0 150px;
+  margin: 0 clamp( 0px, 10%, 150px);
 }
 .section-header{
-  margin-left: 100px;
+  margin-left: clamp( 0px, 10%, 100px);
   float: left;
   text-align: left;
   overflow: visible;
-  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 88px/107px var(--primary-font-family-proxima-nova);
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(3rem, 6vw, 5rem) var(--primary-font-family-proxima-nova);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
   opacity: 1;
@@ -38,15 +38,15 @@ export default {
 }
 
 .section-blob-cont{
-  margin-top: 150px;
+  margin-top: clamp( 20px, 20%, 150px);
   width: 100%;
   min-height: 20px;
   background: var(--HAPS-light-grey) 0% 0% no-repeat padding-box;
 }
 .blob-content{
-  margin: 50px 100px;
+  margin: clamp( 0px, 10%, 50px) clamp( 0px, 10%, 100px);
   text-align: left;
-  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 30px/37px var(--primary-font-family-proxima-nova);
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(0.9rem, 3vw, 1.5rem) var(--primary-font-family-proxima-nova);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
   opacity: 1;
@@ -54,11 +54,11 @@ export default {
 }
 .blob-head{
   padding-bottom: 10px;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-top: 50px;
+  margin-right:  clamp( 0px, 10%, 100px);
+  margin-left: clamp( 0px, 10%, 100px);
+  margin-top: clamp( 0px, 10%, 50px);
   text-align: left;
-  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px/68px var(--primary-font-family-proxima-nova);
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(2rem, 5vw, 3.5rem) var(--primary-font-family-proxima-nova);
   letter-spacing: 0px;
   color: #394248;
   opacity: 1;

@@ -1,18 +1,84 @@
 <template>
   <div class="section-cont">
     <div class="section-blob-cont white">
-      <div class="blob-head">
-        Our<br>
-        <span>Purpose</span>
+      <div class="blob-top-cont">
+        <div class="blob-head">
+          Our<br>
+          <span>Purpose</span>
+        </div>
+        <NuxtLink to="/publications">
+          <div class="view-button">
+            <p>
+              Publications
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
+                <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
+                  <path
+                    id="Path_1"
+                    data-name="Path 1"
+                    d="M7.5,18h21"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                  <path
+                    id="Path_2"
+                    data-name="Path 2"
+                    d="M18,7.5,28.5,18,18,28.5"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                </g>
+              </svg>
+            </p>
+          </div>
+        </NuxtLink>
       </div>
       <div class="blob-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
       </div>
     </div>
     <div class="section-blob-cont">
-      <div class="blob-head">
-        Our<br>
-        <span>Background</span>
+      <div class="blob-top-cont">
+        <div class="blob-head">
+          Our<br>
+          <span>Background</span>
+        </div>
+        <NuxtLink to="/people">
+          <div class="view-button">
+            <p>
+              The Team
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
+                <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
+                  <path
+                    id="Path_1"
+                    data-name="Path 1"
+                    d="M7.5,18h21"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                  <path
+                    id="Path_2"
+                    data-name="Path 2"
+                    d="M18,7.5,28.5,18,18,28.5"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                </g>
+              </svg>
+            </p>
+          </div>
+        </NuxtLink>
       </div>
       <div class="blob-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
@@ -34,6 +100,9 @@ export default {
 .section-cont{
   margin: 0 150px;
 }
+.blob-top-cont{
+  margin-top: 50px;
+}
 .section-blob-cont{
   width: 100%;
   min-height: 20px;
@@ -49,17 +118,40 @@ export default {
   padding-bottom: 10px;
 }
 .blob-head{
+  float: left;
   padding-bottom: 10px;
   margin-right: 100px;
   margin-left: 100px;
-  margin-top: 50px;
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px/68px var(--primary-font-family-proxima-nova);
   letter-spacing: 0;
   color: #394248;
   opacity: 1;
 }
-.blob-head span{
+.blob-head span {
   background: linear-gradient(to top, #9ACBEC 50%, transparent 50%);
+}
+.view-button{
+  float: right;
+  margin-right: 300px;
+  margin-top: 40px;
+  width: 200px;
+  height: 60px;
+  background: var(--pure-white) 0 0 no-repeat padding-box;
+  border: 1px solid #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-button p{
+  opacity: 1;
+  text-align: left;
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
+  letter-spacing: 2px;
+  color: var(--HAPS-dark-grey);
+}
+.view-button svg{
+  height: 18px;
+  transform: translateY(4px);
 }
 </style>
