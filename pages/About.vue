@@ -3,6 +3,8 @@
     <Header />
     <div class="bottom-line" />
     <div class="about-cont">
+      <SmallLanding />
+      <AboutSection2 />
       <Location />
     </div>
     <Footer />
@@ -11,9 +13,11 @@
 
 <script>
 import Location from '~/components/Location'
+import AboutSection2 from '~/components/About/AboutSection2'
+import SmallLanding from '~/components/About/SmallLanding'
 export default {
   name: 'About',
-  components: { Location }
+  components: { Location, AboutSection2, SmallLanding }
 }
 </script>
 
