@@ -81,17 +81,18 @@ export default {
     width:775px;
   }
   .google-maps{
-    float: right;
+    float: left;
     margin-right: 250px;
   }
   .location-cont{
-    margin-top: 50px;
+    margin-top: clamp(1px, 3vw, 50px);
     margin-bottom: 0;
   }
   .location-head{
     width: 100%;
     text-align: center;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
+    font-size: clamp(3rem, 6vw, 4rem);
     letter-spacing: 0;
     color: #394248;
     opacity: 1;

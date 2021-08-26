@@ -26,7 +26,7 @@ export default {
   margin: 0 clamp( 1px, 10%, 150px);
 }
 .section-header{
-  margin-left: clamp( 1px, 10%, 100px);
+  margin-left: clamp( 1px, 4vw, 100px);
   float: left;
   text-align: left;
   overflow: visible;
@@ -45,7 +45,7 @@ export default {
   background: var(--HAPS-light-grey) 0% 0% no-repeat padding-box;
 }
 .blob-content{
-  margin: clamp( 1px, 10%, 50px) clamp( 1px, 10%, 100px);
+  margin: clamp( 1px, 2vw, 50px) clamp( 1px, 4vw, 100px);
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px var(--primary-font-family-proxima-nova);
   font-size: clamp(0.9rem, 3vw, 1.5rem);
@@ -56,8 +56,8 @@ export default {
 }
 .blob-head{
   padding-bottom: 10px;
-  margin-right:  clamp( 1px, 10%, 100px);
-  margin-left: clamp( 1px, 10%, 100px);
+  margin-right:  clamp( 1px, 4vw, 100px);
+  margin-left: clamp( 1px, 4vw, 100px);
   margin-top: clamp( 1px, 10%, 50px);
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
