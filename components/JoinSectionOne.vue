@@ -30,7 +30,7 @@ export default {
   float: left;
   text-align: left;
   overflow: visible;
-  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(3rem, 6vw, 5rem) var(--primary-font-family-proxima-nova);
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 80px var(--primary-font-family-proxima-nova);
   font-size: clamp(3rem, 6vw, 5rem);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
@@ -45,9 +45,10 @@ export default {
   background: var(--HAPS-light-grey) 0% 0% no-repeat padding-box;
 }
 .blob-content{
-  margin: clamp( 0px, 10%, 50px) clamp( 0px, 10%, 100px);
+  margin: clamp( 1px, 10%, 50px) clamp( 1px, 10%, 100px);
   text-align: left;
-  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(0.9rem, 3vw, 1.5rem) var(--primary-font-family-proxima-nova);
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px var(--primary-font-family-proxima-nova);
+  font-size: clamp(0.9rem, 3vw, 1.5rem);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
   opacity: 1;
@@ -55,9 +56,9 @@ export default {
 }
 .blob-head{
   padding-bottom: 10px;
-  margin-right:  clamp( 0px, 10%, 100px);
-  margin-left: clamp( 0px, 10%, 100px);
-  margin-top: clamp( 0px, 10%, 50px);
+  margin-right:  clamp( 1px, 10%, 100px);
+  margin-left: clamp( 1px, 10%, 100px);
+  margin-top: clamp( 1px, 10%, 50px);
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(2rem, 5vw, 3.5rem) var(--primary-font-family-proxima-nova);
   letter-spacing: 0px;
