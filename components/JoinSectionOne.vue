@@ -23,14 +23,15 @@ export default {
 
 <style scoped>
 .section-cont{
-  margin: 0 clamp( 0px, 10%, 150px);
+  margin: 0 clamp( 1px, 10%, 150px);
 }
 .section-header{
-  margin-left: clamp( 0px, 10%, 100px);
+  margin-left: clamp( 1px, 10%, 100px);
   float: left;
   text-align: left;
   overflow: visible;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(3rem, 6vw, 5rem) var(--primary-font-family-proxima-nova);
+  font-size: clamp(3rem, 6vw, 5rem);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
   opacity: 1;
