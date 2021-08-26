@@ -60,7 +60,8 @@ export default {
   margin-left: clamp( 1px, 10%, 100px);
   margin-top: clamp( 1px, 10%, 50px);
   text-align: left;
-  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) clamp(2rem, 5vw, 3.5rem) var(--primary-font-family-proxima-nova);
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
+  font-size: clamp(2rem, 5vw, 3.5rem) ;
   letter-spacing: 0px;
   color: #394248;
   opacity: 1;
