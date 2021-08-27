@@ -180,7 +180,7 @@ export default {
   }
   .haps-links{
     float:left;
-    margin: 75px clamp(50px, 5vw,100px) 5px;
+    margin: clamp(20px, 5vw,75px) clamp(50px, 5vw,100px) 5px;
   }
   .footer-title-links{
     width: 300px;
@@ -256,7 +256,7 @@ export default {
   .copyright{
     width: 100%;
     float:left;
-    margin: 5px 100px;
+    margin: 5px clamp(50px, 5vw,100px);
   }
   .copyright hr{
     border: 1px solid #707070;
@@ -264,10 +264,12 @@ export default {
   }
   .copyright p{
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 16px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
     letter-spacing: var(--primary-character-spacing-0);
     text-align: center;
     color: #707070;
     opacity: 1;
+    margin-bottom: 10px;
   }
   .copyright a{
     text-decoration: none;
