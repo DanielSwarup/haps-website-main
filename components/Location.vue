@@ -72,7 +72,10 @@ export default {
 
 <style scoped>
   .mapouter{
-    position:relative;text-align:right;height:452px;width:775px;
+    position:relative;
+    text-align:right;
+    height:452px;
+    width:775px
   }
   .gmap_canvas{
     overflow:hidden;
@@ -82,7 +85,7 @@ export default {
   }
   .google-maps{
     float: left;
-    margin-right: 250px;
+    margin-left:clamp(1px, 5vw, 250px);
   }
   .location-cont{
     margin-top: clamp(1px, 3vw, 50px);
@@ -98,13 +101,14 @@ export default {
     opacity: 1;
   }
   .location-info-cont{
-    margin-left: 300px;
+    margin-left: clamp(20px, 15vw, 300px);
     margin-top: 20px;
   }
   .location-info{
     float: left;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 32px var(--primary-font-family-proxima-nova);
+    font-size: clamp(1rem, 3vw, 1.75rem);
     letter-spacing: 0;
     color: #394248;
     opacity: 1;
@@ -114,9 +118,10 @@ export default {
     color: #36598F;
   }
   .more-button{
-    margin-top: 50px;
-    width: 250px;
-    height: 60px;
+    margin-top: clamp(5px, 5vw, 50px);
+    margin-bottom: clamp(5px, 5vw, 50px);
+    width: clamp(200px, 20vw, 250px);
+    height: clamp(50px, 12vw, 60px);
     background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
@@ -127,6 +132,7 @@ export default {
     opacity: 1;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
     letter-spacing: 2px;
     color: #394248;
   }

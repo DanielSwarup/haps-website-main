@@ -65,11 +65,12 @@ export default {
   }
   .section-header{
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: clamp( 1px, 20vw, 250px);
     float: left;
     text-align: left;
     overflow: visible;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 80px var(--primary-font-family-proxima-nova);
+    font-size: clamp(3rem, 6vw, 5rem);
     letter-spacing: var(--primary-character-spacing-0);
     color: var(--HAPS-grey);
     opacity: 1;

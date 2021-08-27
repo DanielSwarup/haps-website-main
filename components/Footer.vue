@@ -172,7 +172,7 @@ export default {
     display: flex;
     height: auto;
     float: left;
-    margin: 50px 210px 5px;
+    margin: 50px clamp(50px, 1vw,210px) 5px clamp(50px, 20vw,210px);
   }
   .footer-logo img{
     height: 210px;
@@ -180,11 +180,12 @@ export default {
   }
   .haps-links{
     float:left;
-    margin: 75px 100px 5px;
+    margin: 75px clamp(50px, 5vw,100px) 5px;
   }
   .footer-title-links{
     width: 300px;
     font: var(--primary-font-style-normal) normal 600 17px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.8rem, 3vw, 1rem);
     text-align: left;
     letter-spacing: 6px;
     color: #707070;
@@ -209,6 +210,7 @@ export default {
   }
   .footer-list li{
     font: var(--primary-font-style-normal) normal bold 19px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
     letter-spacing: var(--primary-character-spacing-0);
     text-align: left;
     color: #707070;
