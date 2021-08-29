@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .section-cont{
-  margin: 0 clamp( 1px, 10%, 150px);
+  margin: 0 clamp( 1px, 5vw, 150px);
 }
 .section-header{
   margin-left: clamp( 1px, 4vw, 100px);
@@ -48,7 +48,7 @@ export default {
   margin: clamp( 1px, 2vw, 50px) clamp( 1px, 4vw, 100px);
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px var(--primary-font-family-proxima-nova);
-  font-size: clamp(0.9rem, 3vw, 1.5rem);
+  font-size: clamp(1rem, 3vw, 1.5rem);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
   opacity: 1;

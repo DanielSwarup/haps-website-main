@@ -98,7 +98,7 @@ export default {
   background-color: white !important;
 }
 .section-cont{
-  margin: 0 clamp( 1px, 10%, 150px);
+  margin: 0 clamp( 1px, 5vw, 150px);
 }
 .blob-top-cont{
   margin-top: 50px;
@@ -113,7 +113,7 @@ export default {
   margin: clamp( 1px, 2vw, 50px) clamp( 1px, 4vw, 100px);
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal)  20px var(--primary-font-family-proxima-nova);
-  font-size: clamp(0.9rem, 3vw, 1.5rem);
+  font-size: clamp(1rem, 3vw, 1.5rem);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
   opacity: 1;
@@ -150,7 +150,7 @@ export default {
   opacity: 1;
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
-  font-size: clamp(0.7rem, 3vw, 1.5rem);
+  font-size: clamp(0.9rem, 3vw, 1.5rem);
   letter-spacing: 2px;
   color: var(--HAPS-dark-grey);
 }
