@@ -7,7 +7,7 @@
       <div class="member-cont">
         <div class="member-info">
           <div class="member-picture">
-            <img src="~/assets/anicho.jpg">
+            <img src="~/assets/anicho.jpg" alt="">
           </div>
           <div class="member-personal">
             <div class="member-name">
@@ -62,69 +62,74 @@ export default {
 
 <style scoped>
   .team-carousel-cont{
-    margin-top: 50px;
-    width: 100%;
+    margin-top: clamp(1px, 2vw, 50px);
     background: var(--HAPS-blue) 0 0 no-repeat padding-box;
-    height: auto;
+    display: flex;
+    justify-content: center;
   }
   .team-content{
-    margin: 35px 250px 70px;
+    margin: clamp(10px, 2vw, 35px) clamp(1px, 2vw, 250px) clamp(20px, 10vw, 70px);
   }
   .team-header{
-    padding-bottom: 10px;
+    padding-bottom:  clamp(1px, 5vw, 10px);
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px/68px var(--primary-font-family-proxima-nova);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
   }
   .member-cont{
-    width: 1445px;
-    min-height: 100px;
+    width: clamp(400px, 80vw, 1445px);
     background:var(--HAPS-light-grey) 0% 0% no-repeat padding-box;
     opacity: 1;
   }
   .member-info{
-    margin-top: 100px;
+    margin-top: clamp(15px, 4vw, 100px);
   }
   .member-picture{
-    float: left;
-    width: 352px;
-    height: 440px;
-    margin-left: 150px;
+    float: left ;
+    width: clamp(250px, 20vw, 352px);
+    height: clamp(300px, 20vw, 440px);
+    margin-left: clamp(50px, 4vw, 150px);
+    overflow: hidden;
   }
   .member-picture img{
     width: 100%;
   }
   .member-personal{
     float: left;
-    margin-left: 150px;
-    margin-bottom: 70px;
+    margin-left: clamp(15px, 2vw, 150px);
+    margin-right: clamp(15px, 2vw, 150px);
+    margin-bottom: clamp(10px, 2vw, 70px);
   }
   .member-name{
     padding-bottom: 5px;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 40px/49px var(--primary-font-family-proxima-nova);
+    font-size: clamp(1.75rem, 4vw, 2.2rem);
     letter-spacing: 0px;
     color: #394248;
     opacity: 1;
   }
   .member-excerpt{
-    margin-top: 20px;
+    width: clamp(350px, 55vw, 600px);
+    margin-top: clamp(1px, 10vw, 20px);
     margin-bottom: 20px;
-    width: 650px;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px/30px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.8rem, 2vw, 1.1rem);
     letter-spacing: 0.3px;
     color: #394248;
     opacity: 1;
   }
   .view-button{
     float: left;
-    margin-right: 300px;
-    margin-top: 40px;
-    width: 200px;
-    height: 60px;
+    margin-right: clamp(20px, 5vw, 300px);
+    margin-top: 10px;
+    margin-bottom: clamp(5px, 5vw, 40px);
+    width: clamp(130px, 50vw, 250px);
+    height: clamp(50px, 10vw, 70px);
     background: var(--pure-white) 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
@@ -135,6 +140,7 @@ export default {
     opacity: 1;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 3vw, 1.2rem);
     letter-spacing: 2px;
     color: var(--HAPS-dark-grey);
   }

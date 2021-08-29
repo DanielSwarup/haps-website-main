@@ -101,7 +101,7 @@ export default {
   margin: 0 clamp( 1px, 5vw, 150px);
 }
 .blob-top-cont{
-  margin-top: 50px;
+  margin-top: clamp( 1px, 2vw, 50px);
 }
 .section-blob-cont{
   width: 100%;
@@ -150,7 +150,7 @@ export default {
   opacity: 1;
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
-  font-size: clamp(0.9rem, 3vw, 1.5rem);
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
   letter-spacing: 2px;
   color: var(--HAPS-dark-grey);
 }

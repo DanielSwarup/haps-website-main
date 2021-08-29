@@ -94,17 +94,17 @@ export default {
 
 <style scoped>
   .small-press-cont{
-    margin-left: 150px;
-    margin-top: 50px;
+    margin: clamp(1px, 2vw, 50px) clamp(1px, 4vw, 150px) 0;
     display: flex;
     justify-content: center;
   }
   .view-button{
     float: right;
-    margin-right: 300px;
-    margin-top: 40px;
-    width: 200px;
-    height: 60px;
+    margin-right: clamp(20px, 5vw, 300px);
+    margin-top: 10px;
+    margin-bottom: clamp(5px, 5vw, 40px);
+    width: clamp(130px, 50vw, 250px);
+    height: clamp(50px, 10vw, 70px);
     background: var(--pure-white) 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
@@ -115,6 +115,7 @@ export default {
     opacity: 1;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 3vw, 1.2rem);
     letter-spacing: 2px;
     color: var(--HAPS-dark-grey);
   }
@@ -124,10 +125,10 @@ export default {
   }
   .press-release-text{
     float: left;
-    margin-left: 40px;
     width: auto;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     letter-spacing: 0;
     color: var(--HAPS-dark-grey);
     opacity: 1;
@@ -136,15 +137,15 @@ export default {
     background: linear-gradient(to top, #9ACBEC 50%, transparent 50%);
   }
   .press-release-tiles{
-    margin-top: 50px;
+    margin-top: clamp(1px, 2vw, 50px);
   }
   .single-tile{
     float: left;
-    margin: 0 40px;
+    margin: 0 clamp(1px, 4vw, 40px) clamp(5px, 4vw, 25px) 0;
   }
   .single-tile-img{
-    width: 440px;
-    height: 330px;
+    width: clamp(300px, 25vw, 440px);
+    height: clamp(300px, 10vw, 330px);
     overflow: hidden;
     background: transparent url('assets/yorkHAPS.jpg') 0 0 no-repeat padding-box;
   }
@@ -152,6 +153,7 @@ export default {
     margin-top: 5px;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 16px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.75rem, 2vw, 1rem);
     letter-spacing: 0;
     color: #394248CC;
     opacity: 1;
@@ -159,6 +161,7 @@ export default {
   .single-tile-header {
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 40px var(--primary-font-family-proxima-nova);
+    font-size: clamp(1.75rem, 4vw, 2.2rem);
     letter-spacing: 0;
     color: var(--HAPS-dark-grey);
     opacity: 1;
@@ -166,6 +169,7 @@ export default {
   .single-tile-author{
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 19px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
     letter-spacing: 0;
     color: #394248CC;
     opacity: 1;

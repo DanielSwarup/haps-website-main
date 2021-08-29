@@ -1,50 +1,54 @@
 <template>
   <div class="research-question-cont">
-    <div class="research-picture">
-      <img src="~/assets/proteus.jpg" alt="NASA Proteus Project">
-    </div>
-    <div class="research-content">
-      <div class="information-cont">
-        <div class="mini-top">
-          OUR GOAL:
+    <div class="center">
+      <div>
+        <div class="research-picture">
+          <img src="~/assets/proteus.jpg" alt="NASA Proteus Project">
         </div>
-        <div class="research-question-text">
-          Research Question Lorem Ipsum?
-        </div>
-        <div class="research-brief">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis magna a elit volutpat varius. Nulla at urna at libero vehicula auctor ut in velit. Donec nec fringilla lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim metus, tempor vel condimentum in, ultricies vel libero. Praesent aliquam elit facilisis orci tempor, a volutpat elit auctor. Duis et sem vitae odio bibendum porta. Donec id ultricies nibh. Suspendisse a elit vel justo mattis elementum vel quis felis. Nulla vel convallis arcu.
-        </div>
-        <NuxtLink to="/about">
-          <div class="view-button">
-            <p>
-              About Us
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
-                <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
-                  <path
-                    id="Path_1"
-                    data-name="Path 1"
-                    d="M7.5,18h21"
-                    fill="none"
-                    stroke="#616161"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="3"
-                  />
-                  <path
-                    id="Path_2"
-                    data-name="Path 2"
-                    d="M18,7.5,28.5,18,18,28.5"
-                    fill="none"
-                    stroke="#616161"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="3"
-                  />
-                </g>
-              </svg>
-            </p>
+        <div class="research-content">
+          <div class="information-cont">
+            <div class="mini-top">
+              OUR GOAL:
+            </div>
+            <div class="research-question-text">
+              Research Question Lorem Ipsum?
+            </div>
+            <div class="research-brief">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis magna a elit volutpat varius. Nulla at urna at libero vehicula auctor ut in velit. Donec nec fringilla lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim metus, tempor vel condimentum in, ultricies vel libero. Praesent aliquam elit facilisis orci tempor, a volutpat elit auctor. Duis et sem vitae odio bibendum porta. Donec id ultricies nibh. Suspendisse a elit vel justo mattis elementum vel quis felis. Nulla vel convallis arcu.
+            </div>
+            <NuxtLink to="/about">
+              <div class="view-button">
+                <p>
+                  About Us
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
+                    <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
+                      <path
+                        id="Path_1"
+                        data-name="Path 1"
+                        d="M7.5,18h21"
+                        fill="none"
+                        stroke="#616161"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                      />
+                      <path
+                        id="Path_2"
+                        data-name="Path 2"
+                        d="M18,7.5,28.5,18,18,28.5"
+                        fill="none"
+                        stroke="#616161"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                      />
+                    </g>
+                  </svg>
+                </p>
+              </div>
+            </NuxtLink>
           </div>
-        </NuxtLink>
+        </div>
       </div>
     </div>
   </div>
@@ -57,36 +61,37 @@ export default {
 </script>
 
 <style scoped>
-  .research-question-cont{
-    padding-left: calc(50vw - 900px);
-    padding-right: calc(50vw - 900px);
+  .center{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .research-question-cont{
     margin-top: 50px;
   }
   .research-picture{
+    margin-left: clamp( 1px, 2vw, 50px);
     float: left;
-    width:  700px;
-    height: 600px;
+    height: clamp(280px, 30vw, 600px);
     overflow: hidden;
   }
   .research-picture img{
     height: 100%;
   }
   .research-content{
-    float: right;
-    margin-left: 50px;
-    height: 600px;
-    width: 1000px;
+    min-height: clamp(280px, 30vw, 600px);
+    float: left;
+    margin-left: clamp( 5px, 2vw, 50px);
+    margin-right: clamp( 5px, 2vw, 50px);
+    width: clamp(350px, 55vw, 1000px);
     background-color: #F0F6FA;
   }
   .information-cont{
-    margin: 30px 200px 0 100px;
-    overflow: visible;
+    margin: clamp( 1px, 2vw, 50px) clamp( 5px, 4vw, 200px) clamp( 1px, 2vw, 50px) clamp( 5px, 4vw, 100px);
   }
   .mini-top{
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 15px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.75rem, 2vw, 1rem);
     letter-spacing: 2px;
     color: #394248;
     opacity: 1;
@@ -95,6 +100,7 @@ export default {
     margin-top: 10px;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 50px var(--primary-font-family-proxima-nova);
+    font-size: clamp(2rem, 4vw, 3rem);
     letter-spacing: 1px;
     color: #394248;
     opacity: 1;
@@ -102,17 +108,19 @@ export default {
   .research-brief{
     margin-top: 15px;
     text-align: left;
-    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px/30px var(--primary-font-family-proxima-nova);
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px/25px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
     letter-spacing: 1px;
     color: #394248;
     opacity: 1;
   }
   .view-button{
     float: left;
-    margin-right: 300px;
-    margin-top: 40px;
-    width: 200px;
-    height: 60px;
+    margin-right: clamp(20px, 5vw, 300px);
+    margin-top: 10px;
+    margin-bottom: clamp(5px, 5vw, 40px);
+    width: clamp(130px, 50vw, 250px);
+    height: clamp(50px, 10vw, 70px);
     background: var(--pure-white) 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
@@ -123,6 +131,7 @@ export default {
     opacity: 1;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 3vw, 1.2rem);
     letter-spacing: 2px;
     color: var(--HAPS-dark-grey);
   }
@@ -133,76 +142,5 @@ export default {
   .more-button svg{
     height: 18px;
     transform: translateY(4px);
-  }
-  @media screen and (max-width: 1850px) {
-    .research-question-cont{
-      padding-left: calc(50vw - 750px);
-      padding-right: calc(50vw - 750px);
-    }
-    .research-picture{
-      height: 600px;
-      width: 650px;
-    }
-    .research-content{
-      margin-left: 50px;
-      height: 600px;
-      width: 800px;
-    }
-    .information-cont{
-      margin: 30px 100px 0 100px;
-    }
-    .mini-top{
-      font: var(--primary-font-style-normal) normal 400 12px var(--primary-font-family-proxima-nova);
-    }
-    .research-question-text{
-      margin-top: 15px;
-      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 45px var(--primary-font-family-proxima-nova);
-    }
-    .research-brief{
-      margin-top: 25px;
-      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 22px var(--primary-font-family-proxima-nova);
-    }
-  }
-  @media screen and (max-width: 1550px) {
-    .research-question-cont{
-      padding-left: calc(50vw - 750px);
-      padding-right: calc(50vw - 750px);
-    }
-    .research-picture{
-      height: 500px;
-      width: 550px;
-      margin-left: 50px;
-    }
-    .research-content{
-      margin-left: 50px;
-      height: 500px;
-      width: 750px;
-    }
-    .information-cont{
-      margin: 30px 75px 0 75px;
-    }
-    .mini-top{
-      font: var(--primary-font-style-normal) normal 400 12px var(--primary-font-family-proxima-nova);
-    }
-    .research-question-text{
-      margin-top: 10px;
-      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 40px var(--primary-font-family-proxima-nova);
-    }
-    .research-brief{
-      margin-top: 15px;
-      font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px var(--primary-font-family-proxima-nova);
-    }
-    .more-button{
-      margin-top: 30px;
-      width: 200px;
-      height: 60px;
-    }
-    .more-button p{
-      font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
-    }
-    .more-button svg{
-      height: 18px;
-      transform: translateY(4px);
-    }
   }
 </style>
