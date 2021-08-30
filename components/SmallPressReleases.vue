@@ -138,6 +138,7 @@ export default {
   }
   .press-release-tiles{
     margin-top: clamp(1px, 2vw, 50px);
+    display: flex;
   }
   .single-tile{
     float: left;

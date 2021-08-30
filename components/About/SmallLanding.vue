@@ -64,8 +64,8 @@ export default {
 }
 .landing-main-text{
   float: left;
-  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 45px var(--primary-font-family-proxima-nova);
+  font-size: clamp(2rem, 5vw, 3rem);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--pure-white);
   text-align: left;

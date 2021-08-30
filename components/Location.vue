@@ -6,13 +6,19 @@
       </div>
       <div class="location-info-cont">
         <div class="location-info">
-          Liverpool Hope University,<br>
-          Hope Park,<br>
-          Liverpool<br>
-          L16 9JD
-          <br><br>
-          Phone: <a href="tel:1512913000">+44 (0)151 291 3000</a> <br><br>
-          Email: <a href="mailto:haps@hope.ac.uk">haps@hope.ac.uk</a>
+          <div class="flex-wrapper">
+            <div class="address">
+              Liverpool Hope University,<br>
+              Hope Park,<br>
+              Liverpool<br>
+              L16 9JD
+            </div>
+            <br><br>
+            <div class="contact-details">
+              Phone: <a href="tel:1512913000">+44 (0)151 291 3000</a> <br><br>
+              Email: <a href="mailto:haps@hope.ac.uk">haps@hope.ac.uk</a>
+            </div>
+          </div>
           <a style="text-decoration: none" target="_blank" href="https://www.google.com/maps/dir//Liverpool+Hope+University+-+Hope+Park+Campus+Liverpool+Hope+University+Hope+Park+L16+9JD+United+Kingdom/@53.3908007,-2.8922988,13z/data=!4m5!4m4!1m0!1m2!1m1!1s0x487b21167b7bd2df:0x259667069a5e6423">
             <div class="more-button">
               <p>
@@ -77,13 +83,13 @@ export default {
     position:relative;
     text-align:right;
     height:452px;
-    width:775px
+    width:clamp(300px, 50vw, 775px)
   }
   .gmap_canvas{
     overflow:hidden;
     background:none!important;
     height:452px;
-    width:775px;
+    width:clamp(300px, 50vw, 775px);
   }
   .google-maps{
     float: left;
@@ -98,22 +104,22 @@ export default {
   .location-head{
     width: 100%;
     text-align: center;
-    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
-    font-size: clamp(3rem, 6vw, 4rem);
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 45px var(--primary-font-family-proxima-nova);
+    font-size: clamp(2rem, 6vw, 3rem);
     letter-spacing: 0;
     color: #394248;
     opacity: 1;
   }
   .location-info-cont{
-    margin-left: clamp(20px, 15vw, 300px);
+    margin-left: clamp(20px, 5vw, 300px);
     margin-top: 20px;
   }
   .location-info{
-    margin-right: clamp(20px, 15vw, 150px);
+    margin-right: clamp(10px, 5vw, 150px);
     float: left;
     text-align: left;
-    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 32px var(--primary-font-family-proxima-nova);
-    font-size: clamp(1rem, 3vw, 1.75rem);
+    font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 24px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.9rem, 3vw, 1.5rem);
     letter-spacing: 0;
     color: #394248;
     opacity: 1;
@@ -126,7 +132,7 @@ export default {
     margin-top: clamp(5px, 5vw, 50px);
     margin-bottom: clamp(5px, 5vw, 50px);
     width: clamp(200px, 20vw, 250px);
-    height: clamp(50px, 12vw, 60px);
+    height: clamp(40px, 12vw, 60px);
     background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
@@ -137,7 +143,7 @@ export default {
     opacity: 1;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
-    font-size: clamp(0.9rem, 3vw, 1.1rem);
+    font-size: clamp(0.8rem, 3vw, 1rem);
     letter-spacing: 2px;
     color: #394248;
   }
@@ -145,5 +151,20 @@ export default {
     height: 18px;
     transform: translateY(4px);
   }
-
+  @media screen and (max-width: 900px) {
+    .google-maps{
+      display: none;
+    }
+    .contact-details{
+      float: left;
+    }
+    .address{
+      float: left;
+      width: clamp(120px, 3vw, 200px);
+      margin-right: clamp(5px, 3vw, 60px);
+    }
+    .flex-wrapper{
+      display: flex;
+    }
+  }
 </style>
