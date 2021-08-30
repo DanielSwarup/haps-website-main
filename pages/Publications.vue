@@ -16,6 +16,9 @@ import Publication from '~/components/Publication'
 export default {
   name: 'Publications',
   components: { SmallBanner, Publication },
+  head: {
+    title: 'Publications | High Altitude Platform Station, Liverpool Hope University'
+  },
   mounted () {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()

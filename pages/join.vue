@@ -16,6 +16,9 @@ import JoinSectionOne from '~/components/JoinSectionOne'
 export default {
   name: 'Join',
   components: { Location, JoinSectionOne },
+  head: {
+    title: 'Join Us | High Altitude Platform Station, Liverpool Hope University'
+  },
   mounted () {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()

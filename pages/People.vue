@@ -16,6 +16,9 @@ import Team from '~/components/People/Team'
 export default {
   name: 'People',
   components: { Location, Team },
+  head: {
+    title: 'People | High Altitude Platform Station, Liverpool Hope University'
+  },
   mounted () {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()

@@ -23,7 +23,7 @@ import TeamCarousel from '~/components/TeamCarousel'
 export default {
   components: { LandingSection, ResearchQuestion, SmallPressReleases, Location, TeamCarousel },
   head: {
-    title: 'HAPS'
+    title: 'High Altitude Platform Station, Liverpool Hope University'
   },
   mounted () {
     this.$nextTick(() => {

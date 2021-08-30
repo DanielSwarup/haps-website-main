@@ -18,6 +18,9 @@ import SmallLanding from '~/components/About/SmallLanding'
 export default {
   name: 'About',
   components: { Location, AboutSection2, SmallLanding },
+  head: {
+    title: 'About | High Altitude Platform Station, Liverpool Hope University'
+  },
   mounted () {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()

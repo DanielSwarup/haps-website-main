@@ -99,7 +99,7 @@ export default {
   }
   .member-personal{
     float: left;
-    margin-left: clamp(15px, 2vw, 150px);
+    margin-left: clamp(15px, 10vw, 150px);
     margin-right: clamp(15px, 2vw, 150px);
     margin-bottom: clamp(10px, 2vw, 70px);
   }
@@ -114,7 +114,7 @@ export default {
   }
   .member-excerpt{
     width: clamp(330px, 55vw, 600px);
-    margin-top: clamp(1px, 10vw, 20px);
+    margin-top: clamp(1px, 1vw, 20px);
     margin-bottom: 20px;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px/30px var(--primary-font-family-proxima-nova);

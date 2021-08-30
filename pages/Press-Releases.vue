@@ -19,6 +19,9 @@ import HeroPost from '~/components/Press-Releases/HeroPost'
 export default {
   name: 'Press-Releases',
   components: { SmallBanner, AllPressReleases, HeroPost },
+  head: {
+    title: 'Press Releases | High Altitude Platform Station, Liverpool Hope University'
+  },
   mounted () {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()
