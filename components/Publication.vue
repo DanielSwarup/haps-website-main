@@ -1,5 +1,6 @@
 <template>
-  <div class="publications-cont">
+  <div class="center">
+    <div class="publications-cont">
     <ul>
       <li>
         <div class="single-publication-cont">
@@ -183,6 +184,7 @@
       </li>
     </ul>
   </div>
+  </div>
 </template>
 
 <script>
@@ -192,53 +194,59 @@ export default {
 </script>
 
 <style scoped>
-  .publications-cont{
+  .center{
     display: flex;
     justify-content: center;
-    padding-left: calc(50vw - 700px);
-    padding-right: calc(50vw - 700px);
+  }
+  .publications-cont{
+    margin-left: clamp(10px, 4vw, 150px);
     margin-bottom: 50px;
+    max-width: 1800px;
   }
   .publications-cont ul {
   }
   .single-publication-cont{
-    width: 650px;
-    height: 575px;
+    width: clamp(330px, 85vw, 650px);
+    height: auto;
     background-color: var(--HAPS-light-grey);
     color: #394248;
   }
   .publication-small-head-text{
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 15px/18px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.75rem, 2vw, 1rem);
     color: var(--HAPS-dark-grey);
     text-align: left;
     padding-bottom: 5px;
-    margin-top: 30px;
-    margin-left: 60px;
+    margin-top: clamp( 1px, 4vw, 20px);
+    margin-left: clamp( 1px, 4vw, 60px);
   }
   .publications-main-head-text{
     padding-bottom: 5px;
-    margin-left: 60px;
-    margin-top: 15px;
-    margin-right: 100px;
+    margin-left: clamp( 1px, 4vw, 60px);
+    margin-top: clamp( 1px, 4vw, 10px);
+    margin-right: clamp( 1px, 4vw, 100px);
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 35px var(--primary-font-family-proxima-nova);
+    font-size: clamp(1.75rem, 4vw, 2rem);
     color: var(--HAPS-dark-grey);
     text-align: left;
   }
   .publication-content{
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 18px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.8rem, 2vw, 1rem);
     letter-spacing: var(--primary-character-spacing-0-3);
     color: var(--HAPS-dark-grey);
     text-align: left;
     padding-bottom: 5px;
-    margin-left: 61px;
+    margin-left: clamp( 1px, 4vw, 60px);
     margin-top: 15px;
-    margin-right: 100px;
+    margin-right: clamp( 1px, 4vw, 100px);
   }
   .more-button{
-    margin-left: 60px;
-    margin-top: 35px;
-    width: 250px;
-    height: 60px;
+    margin-left: clamp( 1px, 4vw, 60px);
+    margin-top: clamp(5px, 4vw, 30px);
+    margin-bottom: clamp(2px, 4vw, 15px);
+    width: clamp(150px, 30vw, 250px);
+    height: clamp(50px, 5vw, 70px);
     background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #707070;
     display: flex;
@@ -249,6 +257,7 @@ export default {
     opacity: 1;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-bold) 18px var(--primary-font-family-proxima-nova);
+    font-size: clamp(0.8rem, 3vw, 1rem);
     letter-spacing: 2px;
     color: #394248;
   }

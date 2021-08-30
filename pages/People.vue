@@ -12,7 +12,7 @@
 
 <script>
 import Location from '~/components/Location'
-import Team from '~/components/Team'
+import Team from '~/components/People/Team'
 export default {
   name: 'People',
   components: { Location, Team }

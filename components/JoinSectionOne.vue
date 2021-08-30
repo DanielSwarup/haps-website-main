@@ -1,5 +1,6 @@
 <template>
-  <div class="section-cont">
+  <div class="center">
+    <div class="section-cont">
     <div class="section-header">
       Join Us
     </div>
@@ -13,6 +14,7 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -22,8 +24,13 @@ export default {
 </script>
 
 <style scoped>
+.center{
+  display: flex;
+  justify-content: center;
+}
 .section-cont{
   margin: 0 clamp( 1px, 5vw, 150px);
+  max-width: 1800px;
 }
 .section-header{
   margin-left: clamp( 1px, 20vw, 150px);

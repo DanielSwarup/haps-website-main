@@ -1,88 +1,90 @@
 <template>
-  <div class="section-cont">
-    <div class="section-blob-cont white">
-      <div class="blob-top-cont">
-        <div class="blob-head">
-          Our<br>
-          <span>Purpose</span>
+  <div class="center">
+    <div class="section-cont">
+      <div class="section-blob-cont white">
+        <div class="blob-top-cont">
+          <div class="blob-head">
+            Our<br>
+            <span>Purpose</span>
+          </div>
         </div>
-      </div>
-      <div class="blob-content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
-      </div>
-      <NuxtLink to="/publications">
-        <div class="view-button">
-          <p>
-            Publications
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
-              <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
-                <path
-                  id="Path_1"
-                  data-name="Path 1"
-                  d="M7.5,18h21"
-                  fill="none"
-                  stroke="#616161"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-                <path
-                  id="Path_2"
-                  data-name="Path 2"
-                  d="M18,7.5,28.5,18,18,28.5"
-                  fill="none"
-                  stroke="#616161"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-              </g>
-            </svg>
-          </p>
+        <div class="blob-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
         </div>
-      </NuxtLink>
-    </div>
-    <div class="section-blob-cont">
-      <div class="blob-top-cont">
-        <div class="blob-head">
-          Our<br>
-          <span>Background</span>
-        </div>
+        <NuxtLink to="/publications">
+          <div class="view-button">
+            <p>
+              Publications
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
+                <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
+                  <path
+                    id="Path_1"
+                    data-name="Path 1"
+                    d="M7.5,18h21"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                  <path
+                    id="Path_2"
+                    data-name="Path 2"
+                    d="M18,7.5,28.5,18,18,28.5"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                </g>
+              </svg>
+            </p>
+          </div>
+        </NuxtLink>
       </div>
-      <div class="blob-content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
-      </div>
-      <NuxtLink to="/people">
-        <div class="view-button">
-          <p>
-            The Team
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
-              <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
-                <path
-                  id="Path_1"
-                  data-name="Path 1"
-                  d="M7.5,18h21"
-                  fill="none"
-                  stroke="#616161"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-                <path
-                  id="Path_2"
-                  data-name="Path 2"
-                  d="M18,7.5,28.5,18,18,28.5"
-                  fill="none"
-                  stroke="#616161"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="3"
-                />
-              </g>
-            </svg>
-          </p>
+      <div class="section-blob-cont">
+        <div class="blob-top-cont">
+          <div class="blob-head">
+            Our<br>
+            <span>Background</span>
+          </div>
         </div>
-      </NuxtLink>
+        <div class="blob-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
+        </div>
+        <NuxtLink to="/people">
+          <div class="view-button">
+            <p>
+              The Team
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25.243" viewBox="0 0 24 25.243">
+                <g id="Icon_feather-arrow-right" data-name="Icon feather-arrow-right" transform="translate(-6 -5.379)">
+                  <path
+                    id="Path_1"
+                    data-name="Path 1"
+                    d="M7.5,18h21"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                  <path
+                    id="Path_2"
+                    data-name="Path 2"
+                    d="M18,7.5,28.5,18,18,28.5"
+                    fill="none"
+                    stroke="#616161"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                  />
+                </g>
+              </svg>
+            </p>
+          </div>
+        </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
@@ -94,10 +96,15 @@ export default {
 </script>
 
 <style scoped>
+.center{
+  display: flex;
+  justify-content: center;
+}
 .white{
   background-color: white !important;
 }
 .section-cont{
+  max-width: 1800px;
   margin: 0 clamp( 1px, 5vw, 150px);
 }
 .blob-top-cont{

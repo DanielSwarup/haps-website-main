@@ -4,8 +4,8 @@
     <div class="bottom-line" />
     <div class="publication-cont">
       <SmallBanner />
+      <Publication />
     </div>
-    <Publication />
     <Footer />
   </div>
 </template>

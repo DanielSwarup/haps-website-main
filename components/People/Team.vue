@@ -1,5 +1,6 @@
 <template>
-  <div class="team-cont">
+  <div class="center">
+    <div class="team-cont">
     <div class="section-header">
       The <span>Team</span>
     </div>
@@ -56,6 +57,7 @@
       </ul>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -65,7 +67,12 @@ export default {
 </script>
 
 <style scoped>
+  .center{
+    display: flex;
+    justify-content: center;
+  }
   .team-cont{
+    max-width: 1800px;
   }
   .section-header{
     margin-top: 50px;

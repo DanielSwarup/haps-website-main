@@ -48,7 +48,7 @@ export default {
 }
 .content-cont{
   float:left;
-  margin: clamp(30px, 15vw, 75px) clamp(1px, 1vw, 50px) clamp(1px, 1vw, 20px) clamp(1px, 5vw, 50px);
+  margin: clamp(70px, 15vw, 75px) clamp(1px, 1vw, 50px) clamp(1px, 1vw, 20px) clamp(1px, 5vw, 50px);
   width: auto;
 }
 .right-cont{

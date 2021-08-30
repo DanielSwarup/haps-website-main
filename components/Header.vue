@@ -16,11 +16,6 @@
         <ul class="header-links">
           <nav role="navigation">
             <li>
-              <NuxtLink to="/publications">
-                Publications
-              </NuxtLink>
-            </li>
-            <li>
               <NuxtLink to="/about">
                 About
               </NuxtLink>
@@ -28,6 +23,11 @@
             <li>
               <NuxtLink to="/people">
                 People
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/publications">
+                Publications
               </NuxtLink>
             </li>
             <li>
@@ -45,24 +45,20 @@
         <div class="mobile-nav">
           <ul>
             <li class="join-button">
-              Join Us
+              <NuxtLink to="join">
+                Join Us
+              </NuxtLink>
             </li>
             <li class="header">
-              <input class="menu-btn" type="checkbox" id="menu-btn" />
+              <input id="menu-btn" class="menu-btn" type="checkbox">
               <label class="menu-icon" for="menu-btn">
-<!--                <span class="nav-icon"></span>-->
                 <div id="menuToggle">
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                  <span />
+                  <span />
+                  <span />
                 </div>
               </label>
               <ul class="menu">
-                <li>
-                  <NuxtLink to="/publications">
-                    Publications
-                  </NuxtLink>
-                </li>
                 <li>
                   <NuxtLink to="/about">
                     About
@@ -71,6 +67,11 @@
                 <li>
                   <NuxtLink to="/people">
                     People
+                  </NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/publications">
+                    Publications
                   </NuxtLink>
                 </li>
                 <li>
@@ -89,7 +90,8 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  loading: '~/components/LoadingBar.vue'
 }
 </script>
 
@@ -308,6 +310,10 @@ button{
       margin-right: clamp(10px, 1vw, 40px);
       margin-bottom: clamp(10px, 1vw, 40px);
     }
+    .join-button a{
+      color: var(--pure-white) !important;
+      text-decoration: none;
+    }
     /* header */
     .header ul {
       margin: 0;
@@ -320,9 +326,9 @@ button{
     .header li a {
       color: var(--HAPS-dark-grey);
       display: block;
-      padding: clamp( 5px, 1vw, 10px) clamp( 5px, 1vw, 10px);
+      padding: clamp( 13px, 1vw, 20px) clamp( 5px, 1vw, 10px);
       font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px var(--primary-font-family-proxima-nova);
-      font-size: clamp(0.9rem, 2vw, 1.5rem) !important;
+      font-size: clamp(1rem, 2vw, 1.5rem) !important;
       text-decoration: none;
     }
 
@@ -402,15 +408,12 @@ button{
     .header .menu-btn:checked ~ .menu-icon:not(.steps) .nav-icon:after {
       top: 0;
     }
-
-    /* 48em = 768px */
-
     @media (min-width: 48em) {
       .header li {
         float: left;
       }
       .header li a {
-        padding: clamp( 5px, 2vw, 20px) clamp( 5px, 2vw, 20px);
+        padding: clamp( 15px, 2vw, 20px) clamp( 15px, 2vw, 20px);
       }
       .header .menu {
         clear: none;
@@ -559,4 +562,5 @@ button{
       transform: none;
     }
   }
+
 </style>

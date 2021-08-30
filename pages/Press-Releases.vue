@@ -4,6 +4,7 @@
     <div class="bottom-line" />
     <div class="press-release-cont">
       <SmallBanner />
+      <HeroPost />
       <AllPressReleases />
     </div>
     <Footer />
@@ -12,10 +13,12 @@
 
 <script>
 import SmallBanner from '~/components/SmallBanner'
-import AllPressReleases from '~/components/AllPressReleases'
+import AllPressReleases from '~/components/Press-Releases/AllPressReleases'
+import HeroPost from '~/components/Press-Releases/HeroPost'
+
 export default {
   name: 'Press-Releases',
-  components: { SmallBanner, AllPressReleases }
+  components: { SmallBanner, AllPressReleases, HeroPost }
 }
 </script>
 
