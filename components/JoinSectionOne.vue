@@ -26,7 +26,7 @@ export default {
   margin: 0 clamp( 1px, 5vw, 150px);
 }
 .section-header{
-  margin-left: clamp( 1px, 4vw, 100px);
+  margin-left: clamp( 1px, 20vw, 150px);
   float: left;
   text-align: left;
   overflow: visible;

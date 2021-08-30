@@ -113,7 +113,7 @@ export default {
     opacity: 1;
   }
   .member-excerpt{
-    width: clamp(350px, 55vw, 600px);
+    width: clamp(330px, 55vw, 600px);
     margin-top: clamp(1px, 10vw, 20px);
     margin-bottom: 20px;
     text-align: left;
