@@ -91,7 +91,12 @@
 <script>
 export default {
   name: 'Header',
-  loading: '~/components/LoadingBar.vue'
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  }
 }
 </script>
 
