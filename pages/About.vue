@@ -17,7 +17,13 @@ import AboutSection2 from '~/components/About/AboutSection2'
 import SmallLanding from '~/components/About/SmallLanding'
 export default {
   name: 'About',
-  components: { Location, AboutSection2, SmallLanding }
+  components: { Location, AboutSection2, SmallLanding },
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  }
 }
 </script>
 

@@ -199,9 +199,10 @@ export default {
     justify-content: center;
   }
   .publications-cont{
-    margin-left: clamp(10px, 4vw, 150px);
+    margin-top: clamp( 1px, 4vw, 20px);
+    margin-left: clamp(1px, 1vw, 300px);
     margin-bottom: 50px;
-    max-width: 1800px;
+    max-width: 1350px;
   }
   .publications-cont ul {
   }

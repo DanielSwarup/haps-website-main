@@ -15,7 +15,13 @@ import SmallBanner from '~/components/SmallBanner'
 import Publication from '~/components/Publication'
 export default {
   name: 'Publications',
-  components: { SmallBanner, Publication }
+  components: { SmallBanner, Publication },
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  }
 }
 </script>
 

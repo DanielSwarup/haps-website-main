@@ -18,7 +18,13 @@ import HeroPost from '~/components/Press-Releases/HeroPost'
 
 export default {
   name: 'Press-Releases',
-  components: { SmallBanner, AllPressReleases, HeroPost }
+  components: { SmallBanner, AllPressReleases, HeroPost },
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  }
 }
 </script>
 

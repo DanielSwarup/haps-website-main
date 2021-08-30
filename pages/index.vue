@@ -24,6 +24,12 @@ export default {
   components: { LandingSection, ResearchQuestion, SmallPressReleases, Location, TeamCarousel },
   head: {
     title: 'HAPS'
+  },
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
   }
 }
 </script>

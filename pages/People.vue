@@ -15,7 +15,13 @@ import Location from '~/components/Location'
 import Team from '~/components/People/Team'
 export default {
   name: 'People',
-  components: { Location, Team }
+  components: { Location, Team },
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  }
 }
 </script>
 

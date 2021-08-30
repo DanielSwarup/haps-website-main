@@ -15,7 +15,13 @@ import Location from '~/components/Location'
 import JoinSectionOne from '~/components/JoinSectionOne'
 export default {
   name: 'Join',
-  components: { Location, JoinSectionOne }
+  components: { Location, JoinSectionOne },
+  mounted () {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  }
 }
 </script>
 
