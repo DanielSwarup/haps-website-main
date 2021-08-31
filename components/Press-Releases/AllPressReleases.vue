@@ -97,7 +97,7 @@ export default {
 }
 .press-release-tiles{
   margin-top: clamp(1px, 2vw, 50px);
-  margin-left: clamp(30px, 4vw, 150px);
+  margin-left: clamp(30px, 5vw, 150px);
 }
 .press-release-tiles ul{
 }

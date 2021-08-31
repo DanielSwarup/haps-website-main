@@ -1,14 +1,17 @@
 <template>
   <div class="small-banner-cont">
     <div class="small-banner-text">
-      Publications
+      {{ title }}
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'SmallBanner'
+  name: 'SmallBanner',
+  props: {
+    title: String
+  }
 }
 </script>
 

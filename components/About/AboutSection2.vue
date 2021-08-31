@@ -5,7 +5,7 @@
         <div class="blob-top-cont">
           <div class="blob-head">
             Our<br>
-            <span>Purpose</span>
+            <span>Mission</span>
           </div>
         </div>
         <div class="blob-content">

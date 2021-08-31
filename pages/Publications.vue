@@ -3,7 +3,7 @@
     <Header />
     <div class="bottom-line" />
     <div class="publication-cont">
-      <SmallBanner />
+      <SmallBanner title="Publications" />
       <Publication />
     </div>
     <Footer />
@@ -12,7 +12,7 @@
 
 <script>
 import SmallBanner from '~/components/SmallBanner'
-import Publication from '~/components/Publication'
+import Publication from '~/components/Publication/Publication'
 export default {
   name: 'Publications',
   components: { SmallBanner, Publication },

@@ -148,7 +148,7 @@ export default {
     width: clamp(300px, 25vw, 440px);
     height: clamp(300px, 10vw, 330px);
     overflow: hidden;
-    background: transparent url('assets/yorkHAPS.jpg') 0 0 no-repeat padding-box;
+    background: transparent url('../../assets/yorkHAPS.jpg') 0 0 no-repeat padding-box;
   }
   .single-tile-date{
     margin-top: 5px;

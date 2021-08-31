@@ -14,11 +14,11 @@
 </template>
 
 <script>
-import LandingSection from '~/components/LandingSection'
-import ResearchQuestion from '~/components/ResearchQuestion'
-import SmallPressReleases from '~/components/SmallPressReleases'
+import LandingSection from '~/components/LandingPage/LandingSection'
+import ResearchQuestion from '~/components/LandingPage/ResearchQuestion'
+import SmallPressReleases from '~/components/LandingPage/SmallPressReleases'
 import Location from '~/components/Location'
-import TeamCarousel from '~/components/TeamCarousel'
+import TeamCarousel from '~/components/LandingPage/TeamCarousel'
 
 export default {
   components: { LandingSection, ResearchQuestion, SmallPressReleases, Location, TeamCarousel },

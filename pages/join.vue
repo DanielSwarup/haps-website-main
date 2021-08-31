@@ -12,7 +12,7 @@
 
 <script>
 import Location from '~/components/Location'
-import JoinSectionOne from '~/components/JoinSectionOne'
+import JoinSectionOne from '~/components/Join/JoinSectionOne'
 export default {
   name: 'Join',
   components: { Location, JoinSectionOne },

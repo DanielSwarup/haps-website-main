@@ -3,7 +3,7 @@
     <Header />
     <div class="bottom-line" />
     <div class="press-release-cont">
-      <SmallBanner />
+      <SmallBanner title="Press Releases" />
       <HeroPost />
       <AllPressReleases />
     </div>
@@ -42,7 +42,7 @@ export default {
     border: 2px solid #36598F;
     opacity: 1;
     position: relative;
-    top: -85px;
+    top: -86px;
     z-index: 1 !important;
   }
   .background-white{
