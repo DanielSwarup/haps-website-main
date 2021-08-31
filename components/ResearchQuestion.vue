@@ -106,6 +106,7 @@ export default {
     opacity: 1;
   }
   .research-brief{
+    overflow: hidden;
     margin-top: 15px;
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px/25px var(--primary-font-family-proxima-nova);
