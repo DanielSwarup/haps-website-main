@@ -97,7 +97,7 @@ export default {
   .landing-main-text{
     float: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 45px var(--primary-font-family-proxima-nova);
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
     letter-spacing: var(--primary-character-spacing-0);
     color: var(--pure-white);
     text-align: left;
@@ -111,7 +111,7 @@ export default {
     color: var(--pure-white);
     text-align: left;
     font: var(--primary-font-style-normal) normal 100 21px/30px var(--primary-font-family-proxima-nova);
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(1rem, 3vw, 1.3rem);
     opacity: 1;
   }
   .our-work-text{
@@ -130,7 +130,7 @@ export default {
   .link-buttons{
     float: left;
     margin: clamp(1px, 1vw, 20px) clamp(1px, 1vw, 60px) clamp(1px, 1vw, 30px) 0;
-    width: 250px;
+    width: clamp(220px, 20vw, 250px);
     height: auto;
     background: var(--pure-white) 0 0 no-repeat padding-box;
     opacity: 1;

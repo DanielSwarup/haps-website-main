@@ -11,7 +11,7 @@
               VISION:
             </div>
             <div class="research-question-text">
-              OUR MISSION
+              Our Mission
             </div>
             <div class="research-brief">
               To facilitate digital access by accelerating the adoption of HAPS through researching at the cutting edge of technology and policy innovation, providing futuristic and solution oriented thinking within the HAPS ecosystem.
@@ -118,7 +118,7 @@ export default {
   .view-button{
     float: left;
     margin-right: clamp(20px, 5vw, 300px);
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: clamp(5px, 5vw, 40px);
     width: clamp(130px, 50vw, 250px);
     height: clamp(50px, 10vw, 70px);
