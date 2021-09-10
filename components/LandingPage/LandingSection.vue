@@ -8,10 +8,10 @@
           </div>
           <div class="landing-text-cont">
             <div class="landing-main-text">
-              Connecting people via high altitude platform infrastructures
+              Connecting People and Things via High Altitude Platform Stations (HAPS).
             </div>
             <div class="landing-sub-text">
-              We specialise in researching high altitude platform applications to improve digital access to connect people and things. Researching platform modelling and simulation, multiple platform coordination, technology and policy innovation, and platform issues.
+              We specialise in HAPS and related applications to improve digital access, connecting people and things. Our work focuses on HAPS modelling and simulation, multiple HAPS coordination scenarios, HAPS application challenges and HAPS technology and policy innovation.
             </div>
             <div class="landing-sub-text-small">
               <div class="our-work-text">
