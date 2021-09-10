@@ -7,14 +7,14 @@
       <div class="member-cont">
         <div class="member-info">
           <div class="member-picture">
-            <img src="~/assets/anicho.jpg" alt="">
+            <img src="~/assets/Atulya-Nagar.jpg" alt="">
           </div>
           <div class="member-personal">
             <div class="member-name">
-              Dr Ogbonnaya Anicho
+              Prof. Atulya K. Nagar
             </div>
             <div class="member-excerpt">
-              Dr. Ogbonnaya Anicho, (Member, IEEE), holds a PhD in Computer Science from Liverpool Hope University, MSc (Distinction) in Telecommunications with Management from University of South Wales and BSc in Computing and Information Technologies from University of Derby. His research work focuses on modelling and simulating multiple High Altitude Platform Stations (HAPS) with autonomous capabilities for communications connectivity. Central to the research is exploring ways of extending broadband connectivity to rural remote locations; a key requirement for participation in the digital economy.
+              Prof. Atulya K. Nagar holds the Foundation Chair as Professor of Mathematical Sciences and is the Pro Vice-Chancellor (Research) at Liverpool Hope University, United Kingdom. He is responsible for developing Sciences and Engineering and has been the Head of the School of Mathematics, Computer Science and Engineering which he established at the University. He received a prestigious Commonwealth Fellowship for pursuing his doctorate (DPhil) in Applied Nonlinear Mathematics, which he earned from the University of York (UK) in 1996. He holds BSc (Hons), MSc, and MPhil (with distinction) in Mathematical Physics from the MDS University of Ajmer, India. Prior to joining Liverpool Hope, he was with the Department of Mathematical Sciences, and later at the Department of Systems Engineering, at Brunel University, London.
             </div>
             <NuxtLink to="/people">
               <div class="view-button">
@@ -99,7 +99,7 @@ export default {
   }
   .member-personal{
     float: left;
-    margin-left: clamp(15px, 10vw, 150px);
+    margin-left: clamp(15px, 4vw, 200px);
     margin-right: clamp(15px, 2vw, 150px);
     margin-bottom: clamp(10px, 2vw, 70px);
   }
@@ -113,7 +113,7 @@ export default {
     opacity: 1;
   }
   .member-excerpt{
-    width: clamp(330px, 55vw, 600px);
+    width: clamp(300px, 40vw, 750px);
     margin-top: clamp(1px, 1vw, 20px);
     margin-bottom: 20px;
     text-align: left;

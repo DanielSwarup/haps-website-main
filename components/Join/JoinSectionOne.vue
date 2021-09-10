@@ -38,7 +38,7 @@ export default {
   text-align: left;
   overflow: visible;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 80px var(--primary-font-family-proxima-nova);
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(2.5rem, 6vw, 4rem);
   letter-spacing: var(--primary-character-spacing-0);
   color: var(--HAPS-grey);
   opacity: 1;
@@ -52,7 +52,7 @@ export default {
   background: var(--HAPS-light-grey) 0% 0% no-repeat padding-box;
 }
 .blob-content{
-  margin: clamp( 1px, 2vw, 50px) clamp( 1px, 4vw, 100px);
+  margin: clamp( 1px, 2vw, 15px) clamp( 1px, 4vw, 100px) clamp( 1px, 2vw, 50px) ;
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 20px var(--primary-font-family-proxima-nova);
   font-size: clamp(1rem, 3vw, 1.5rem);
@@ -62,13 +62,12 @@ export default {
   padding-bottom: 10px;
 }
 .blob-head{
-  padding-bottom: 10px;
   margin-right:  clamp( 1px, 4vw, 100px);
   margin-left: clamp( 1px, 4vw, 100px);
   margin-top: clamp( 1px, 10%, 50px);
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 55px var(--primary-font-family-proxima-nova);
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(2rem, 5vw, 3rem);
   letter-spacing: 0px;
   color: #394248;
   opacity: 1;
