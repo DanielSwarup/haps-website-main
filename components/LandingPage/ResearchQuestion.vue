@@ -8,13 +8,13 @@
         <div class="research-content">
           <div class="information-cont">
             <div class="mini-top">
-              OUR GOAL:
+              VISION:
             </div>
             <div class="research-question-text">
-              Research Question Lorem Ipsum?
+              OUR MISSION & GOAL?
             </div>
             <div class="research-brief">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis magna a elit volutpat varius. Nulla at urna at libero vehicula auctor ut in velit. Donec nec fringilla lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim metus, tempor vel condimentum in, ultricies vel libero. Praesent aliquam elit facilisis orci tempor, a volutpat elit auctor. Duis et sem vitae odio bibendum porta. Donec id ultricies nibh. Suspendisse a elit vel justo mattis elementum vel quis felis. Nulla vel convallis arcu.
+              To facilitate digital access by accelerating the adoption of HAPS through researching at the cutting edge of technology and policy innovation, providing futuristic and solution oriented thinking within the HAPS ecosystem.
             </div>
             <NuxtLink to="/about">
               <div class="view-button">
