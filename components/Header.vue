@@ -113,8 +113,13 @@ export default {
         },
         {
           hid: 'twitter:image',
-          name: 'og:image',
-          content: '../assets/sharecard.png'
+          name: 'twitter:image',
+          content: '/sharecard.png'
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image'
         },
         {
           hid: 'og:title',
@@ -134,7 +139,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: '../assets/sharecard.png'
+          content: '/sharecard.png'
         }
       ]
     }
