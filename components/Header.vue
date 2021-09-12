@@ -92,26 +92,32 @@
 export default {
   name: 'Header',
   props: {
-    title: String
+    title: {
+      type: String,
+      required: true,
+      default: 'High Altitude Platform Station, Liverpool Hope University'
+    }
   },
-  head: {
-    meta: [
-      {
-        hid: 'og:title',
-        name: 'og:title',
-        content: this.title
-      },
-      {
-        hid: 'og:description',
-        name: 'og:description',
-        content: 'Connecting People and Things via High Altitude Platform Stations (HAPS).'
-      },
-      {
-        hid: 'og:site_name',
-        name: 'og:site_name',
-        content: 'High Altitude Platform Station, Liverpool Hope University'
-      }
-    ]
+  head () {
+    return {
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'Connecting People and Things via High Altitude Platform Stations (HAPS).'
+        },
+        {
+          hid: 'og:site_name',
+          name: 'og:site_name',
+          content: 'High Altitude Platform Station, Liverpool Hope University'
+        }
+      ]
+    }
   },
   mounted () {
     this.$nextTick(() => {
