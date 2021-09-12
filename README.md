@@ -1,4 +1,4 @@
-# haps-website-main
+# High Altitude Platform Station, Liverpool Hope University
 
 ## Build Setup
 
