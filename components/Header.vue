@@ -2,6 +2,9 @@
   <div class="head">
     <head>
       <link rel="stylesheet" href="https://use.typekit.net/jzu6vuf.css">
+      <meta property="og:title" :content="title">
+      <meta property="og:site_name" content="High Altitude Platform Station, Liverpool Hope University">
+      <meta property="og:description" content="Connecting People and Things via High Altitude Platform Stations (HAPS).">
     </head>
     <NuxtLink to="/">
       <img src="~/assets/logo.png" alt="HAPS Logo" class="header-logo">
@@ -91,6 +94,9 @@
 <script>
 export default {
   name: 'Header',
+  props: {
+    title: String
+  },
   mounted () {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()

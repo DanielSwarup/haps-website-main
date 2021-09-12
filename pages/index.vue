@@ -1,6 +1,6 @@
 <template>
   <div class="background-white">
-    <Header />
+    <Header title="High Altitude Platform Station, Liverpool Hope University" />
     <div class="bottom-line" />
     <div class="landing-cont">
       <LandingSection />

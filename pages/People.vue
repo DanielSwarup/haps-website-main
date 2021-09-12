@@ -1,6 +1,6 @@
 <template>
   <div class="background-white">
-    <Header />
+    <Header title="People" />
     <div class="bottom-line" />
     <div class="people-cont">
       <Team />

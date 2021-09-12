@@ -1,6 +1,6 @@
 <template>
   <div class="background-white">
-    <Header />
+    <Header title="Press Releases" />
     <div class="bottom-line" />
     <div class="press-release-cont">
       <SmallBanner title="Press Releases" />

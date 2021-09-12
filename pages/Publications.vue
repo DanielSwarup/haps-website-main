@@ -1,6 +1,6 @@
 <template>
   <div class="background-white">
-    <Header />
+    <Header title="Publications" />
     <div class="bottom-line" />
     <div class="publication-cont">
       <SmallBanner title="Publications" />

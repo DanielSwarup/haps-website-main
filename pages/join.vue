@@ -1,6 +1,6 @@
 <template>
   <div class="background-white">
-    <Header />
+    <Header title="Join Us"/>
     <div class="bottom-line" />
     <div class="join-cont">
       <JoinSectionOne />

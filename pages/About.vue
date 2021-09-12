@@ -1,6 +1,6 @@
 <template>
   <div class="background-white">
-    <Header />
+    <Header title="About Us" />
     <div class="bottom-line" />
     <div class="about-cont">
       <SmallLanding />
