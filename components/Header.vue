@@ -112,6 +112,11 @@ export default {
           content: 'Connecting People and Things via High Altitude Platform Stations (HAPS).'
         },
         {
+          hid: 'twitter:image',
+          property: 'og:image',
+          content: '/assets/sharecard.png'
+        },
+        {
           hid: 'og:title',
           property: 'og:title',
           content: this.title
@@ -125,6 +130,11 @@ export default {
           hid: 'og:site_name',
           property: 'og:site_name',
           content: 'High Altitude Platform Station, Liverpool Hope University'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: '/assets/sharecard.png'
         }
       ]
     }
