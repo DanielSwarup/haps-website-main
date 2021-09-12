@@ -102,18 +102,28 @@ export default {
     return {
       meta: [
         {
+          hid: 'twitter:title',
+          property: 'twitter:title',
+          content: this.title
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: 'Connecting People and Things via High Altitude Platform Stations (HAPS).'
+        },
+        {
           hid: 'og:title',
-          name: 'og:title',
+          property: 'og:title',
           content: this.title
         },
         {
           hid: 'og:description',
-          name: 'og:description',
+          property: 'og:description',
           content: 'Connecting People and Things via High Altitude Platform Stations (HAPS).'
         },
         {
           hid: 'og:site_name',
-          name: 'og:site_name',
+          property: 'og:site_name',
           content: 'High Altitude Platform Station, Liverpool Hope University'
         }
       ]
