@@ -103,18 +103,18 @@ export default {
       meta: [
         {
           hid: 'twitter:title',
-          property: 'twitter:title',
+          name: 'twitter:title',
           content: this.title
         },
         {
           hid: 'twitter:description',
-          property: 'twitter:description',
+          name: 'twitter:description',
           content: 'Connecting People and Things via High Altitude Platform Stations (HAPS).'
         },
         {
           hid: 'twitter:image',
-          property: 'og:image',
-          content: '/assets/sharecard.png'
+          name: 'og:image',
+          content: '../assets/sharecard.png'
         },
         {
           hid: 'og:title',
@@ -134,7 +134,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: '/assets/sharecard.png'
+          content: '../assets/sharecard.png'
         }
       ]
     }
