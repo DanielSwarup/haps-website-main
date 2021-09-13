@@ -114,7 +114,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: '/sharecard.png'
+          content: 'https://trusting-brattain-d6413e.netlify.app/sharecard.png'
         },
         {
           hid: 'twitter:card',
@@ -139,7 +139,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: '/sharecard.png'
+          content: 'https://trusting-brattain-d6413e.netlify.app/sharecard.png'
         }
       ]
     }
