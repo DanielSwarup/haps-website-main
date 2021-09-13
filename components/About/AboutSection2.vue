@@ -51,7 +51,7 @@
           </div>
         </div>
         <div class="blob-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
+             We have a small team of dedicated research personnels with relavant and varying compentencies within aerospace, communications and aerial robotics. Our team employs tools from mathematics, computer science and engineering to tackle challenges within this research domain. The HAPS team also have researchers with extensive industry experience and multi-disciplinary capabilities. 
         </div>
         <NuxtLink to="/people">
           <div class="view-button">
