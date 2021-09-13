@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="blob-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sagittis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut porttitor dictum ex, non scelerisque ante consectetur et. Mauris dapibus fermentum diam, sed molestie dui consectetur nec. Phasellus mattis lorem non felis dictum, id interdum nunc interdum. Curabitur eu mauris mi. Duis id elit at lorem mollis dictum. Quisque ultrices ligula sit amet posuere cursus. Duis vestibulum tincidunt tempor. Maecenas molestie, dolor vitae sagittis pulvinar, eros est rhoncus lectus, sed cursus mi turpis eu dui. Vivamus ac iaculis ligula, nec ornare sem.
+          Our mission is to contribute to extending digital connectivity through HAPS by addressing technology and policy related challenges hindering the full adoption of the technology. As a member of the HAPS Alliance, Liverpool Hope understands the urgency in addressing rural connectivity challenges using HAPS and its broader application potentials. HAPS as a technology is expected to become a signifcant part of the global digital access infrastructure in conjunction with terrestrial and satellite systems.  
         </div>
         <NuxtLink to="/publications">
           <div class="view-button">
