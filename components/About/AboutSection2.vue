@@ -51,7 +51,7 @@
           </div>
         </div>
         <div class="blob-content">
-             We have a small team of dedicated research personnels with relavant and varying compentencies within aerospace, communications and aerial robotics. Our team employs tools from mathematics, computer science and engineering to tackle challenges within this research domain. The HAPS team also have researchers with extensive industry experience and multi-disciplinary capabilities. 
+             We have a small team of dedicated research personnel with relevant and varying competencies within aerospace, communications and aerial robotics. Our team employs tools from mathematics, computer science and engineering to tackle challenges within this research domain. The HAPS team also have researchers with extensive industry experience and multi-disciplinary capabilities.
         </div>
         <NuxtLink to="/people">
           <div class="view-button">
