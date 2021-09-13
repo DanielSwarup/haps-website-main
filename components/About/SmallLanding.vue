@@ -5,7 +5,7 @@
         <div class="content-cont">
           <div class="landing-text-cont">
             <div class="landing-lhu-text">
-              <p>Liverpool Hope University</p>
+             <!-- <p>Liverpool Hope University</p> -->
             </div>
             <div class="landing-main-text">
               HAPS Research
