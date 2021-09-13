@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="blob-content">
-          Our mission is to contribute to extending digital connectivity through HAPS by addressing technology and policy related challenges hindering the full adoption of the technology. As a member of the HAPS Alliance, Liverpool Hope understands the urgency in addressing rural connectivity challenges using HAPS and its broader application potentials. HAPS as a technology is expected to become a signifcant part of the global digital access infrastructure in conjunction with terrestrial and satellite systems.  
+          Our mission is to contribute to extending digital connectivity through HAPS by addressing technology and policy related challenges hindering the full adoption of the technology. As a member of the HAPS Alliance, Liverpool Hope understands the urgency in addressing rural connectivity challenges using HAPS and its broader application potentials. HAPS as a technology is expected to become a significant part of the global digital access infrastructure in conjunction with terrestrial and satellite systems.  
         </div>
         <NuxtLink to="/publications">
           <div class="view-button">
