@@ -8,7 +8,7 @@
               <p>Liverpool Hope University</p>
             </div>
             <div class="landing-main-text">
-              Liverpool Hope HAPS Research
+              HAPS Research
             </div>
             <div class="landing-sub-text">
               The HAPS research in Liverpool Hope focuses on addressing connectivity challenges especially in rural and remote locations by fusing technology and policy based interventions.  
