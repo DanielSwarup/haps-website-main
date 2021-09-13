@@ -8,10 +8,10 @@
               <p>Liverpool Hope University</p>
             </div>
             <div class="landing-main-text">
-              Research Question Lorem Ipsum?
+              Liverpool Hope HAPS Research
             </div>
             <div class="landing-sub-text">
-              We specialise in researching high altitude platform applications to improve digital access to connect people and things. Researching platform modelling and simulation, multiple platform coordination, technology and policy innovation, and platform issues.
+              The HAPS research in Liverpool Hope focuses on addressing connectivity challenges especially in rural and remote locations by fusing technology and policy based interventions.  
             </div>
           </div>
         </div>
