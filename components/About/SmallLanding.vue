@@ -19,9 +19,9 @@
           <div class="picture">
             <div class="center">
               <div>
-                <img src="~/assets/Airship.jpg" alt="Geostationary Airship Satellite">
+                <img src="~/assets/Airship.jpg" alt="HAPS Airship">
                 <div class="img-title">
-                  Geostationary Airship Satellite
+                  HAPS Airship
                 </div>
               </div>
             </div>
