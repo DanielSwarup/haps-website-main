@@ -38,7 +38,7 @@ export default {
     margin-top: 0;
     height: clamp(300px, 20vw, 400px);
     width: 800px;
-    background: transparent url('../../assets/yorkHAPS.jpg') 0 0 no-repeat padding-box;
+    background: transparent url('../../assets/VanillaP.png') 0 0 no-repeat padding-box;
   }
   .hero-info-cont{
     margin-left: clamp(10px, 2vw, 20px);
