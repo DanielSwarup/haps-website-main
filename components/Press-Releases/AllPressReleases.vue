@@ -6,73 +6,73 @@
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              June 16, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+             High altitude internet platforms ‘crucial’ in future pandemics
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              IoTNOW
             </div>
           </li>
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              June 16, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+              Liverpool Hope University finds solar powered high altitude platforms could solve the problem of rural connectivity
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+             Satellite Evolution Group
             </div>
           </li>
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              June 16, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+              HAPS to boost rural connectivity
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              Advanced Television
             </div>
           </li>
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              Nov 3, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+             High-altitude platforms: why the way to bring the world online hangs in the sky
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              The National
             </div>
           </li>
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              August, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+              Universal Digital Access Already a Top Global Priority, Now More Urgent Due to COVID-19
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              Avealto Insights 
             </div>
           </li>
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+               June 16, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+              High altitude internet platforms ‘crucial’ in future pandemics
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              Vanilla Plus
             </div>
           </li>
         </ul>
