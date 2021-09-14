@@ -47,37 +47,37 @@
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              June 16, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+              High altitude internet platforms ‘crucial’ in future pandemics
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              IoTNOW
             </div>
           </li>
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              June 16, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+              Liverpool Hope University finds solar powered high altitude platforms could solve the problem of rural connectivity
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              Satellite Evolution Group
             </div>
           </li>
           <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
-              July 1, 2021
+              June 16, 2020
             </div>
             <div class="single-tile-header">
-              Press Release Title 1
+              HAPS to boost rural connectivity
             </div>
             <div class="single-tile-author">
-              By Ogbonnaya Anicho
+              Advanced Television
             </div>
           </li>
         </ul>
@@ -143,6 +143,8 @@ export default {
   .single-tile{
     float: left;
     margin: 0 clamp(1px, 4vw, 40px) clamp(5px, 4vw, 25px) 0;
+    width: clamp(300px, 25vw, 440px);
+    height: 460px;
   }
   .single-tile-img{
     width: clamp(300px, 25vw, 440px);
@@ -162,7 +164,7 @@ export default {
   .single-tile-header {
     text-align: left;
     font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 40px var(--primary-font-family-proxima-nova);
-    font-size: clamp(1.75rem, 4vw, 2.2rem);
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
     letter-spacing: 0;
     color: var(--HAPS-dark-grey);
     opacity: 1;
