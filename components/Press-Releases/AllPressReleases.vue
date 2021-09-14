@@ -63,7 +63,7 @@
               Avealto Insights 
             </div>
           </li>
-          <li class="single-tile">
+         <!-- <li class="single-tile">
             <div class="single-tile-img" />
             <div class="single-tile-date">
                June 16, 2020
@@ -73,7 +73,7 @@
             </div>
             <div class="single-tile-author">
               Vanilla Plus
-            </div>
+            </div> -->
           </li>
         </ul>
       </div>
