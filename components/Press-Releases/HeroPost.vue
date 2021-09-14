@@ -4,13 +4,13 @@
       <div class="hero-picture" />
       <div class="hero-info-cont">
         <div class="hero-date">
-          July 1, 2021
+          June 16, 2020
         </div>
         <div class="hero-title">
-          Press Release Title 1
+         High altitude internet platforms ‘crucial’ in future pandemics
         </div>
         <div class="hero-author">
-          By Ogbonnaya Anicho
+          Vanilla Plus
         </div>
       </div>
     </div>
