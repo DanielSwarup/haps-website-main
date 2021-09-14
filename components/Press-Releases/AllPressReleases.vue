@@ -93,8 +93,12 @@ export default {
   float: left;
   margin: 0 clamp(1px, 4vw, 35px) clamp(5px, 4vw, 25px) 0;
   width: clamp(300px, 25vw, 440px);
-  height: 460px;
-
+  height: 450px;
+}
+@media screen and (max-width: 1056px){
+  .single-tile{
+    height: auto;
+  }
 }
 .single-tile-img{
   width: clamp(300px, 25vw, 440px);
@@ -122,7 +126,7 @@ export default {
 .single-tile-author{
   text-align: left;
   font: var(--primary-font-style-normal) normal var(--primary-font-weight-normal) 19px var(--primary-font-family-proxima-nova);
-  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  font-size: clamp(0.8rem, 2vw, 1rem);
   letter-spacing: 0;
   color: #394248CC;
   opacity: 1;

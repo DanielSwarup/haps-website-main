@@ -144,7 +144,12 @@ export default {
     float: left;
     margin: 0 clamp(1px, 4vw, 40px) clamp(5px, 4vw, 25px) 0;
     width: clamp(300px, 25vw, 440px);
-    height: 460px;
+    height: 450px;
+  }
+  @media screen and (max-width: 1056px){
+    .single-tile{
+      height: auto;
+    }
   }
   .single-tile-img{
     width: clamp(300px, 25vw, 440px);
