@@ -145,7 +145,7 @@ export default {
     width: 90%;
     min-height: 400px;
     padding-bottom: 40px;
-    background: var(--HAPS-light-grey) 0% 0% no-repeat padding-box;
+    background: var(--HAPS-light-grey) 0 0 no-repeat padding-box;
   }
   .member-full-cont{
     margin-left: clamp( 1px, 5vw, 150px);

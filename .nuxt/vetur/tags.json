@@ -1,0 +1,50 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "LoadingBar": {
+    "description": "Auto imported from components/LoadingBar.vue"
+  },
+  "Location": {
+    "description": "Auto imported from components/Location.vue"
+  },
+  "SmallBanner": {
+    "description": "Auto imported from components/SmallBanner.vue"
+  },
+  "AboutSection2": {
+    "description": "Auto imported from components/About/AboutSection2.vue"
+  },
+  "AboutSmallLanding": {
+    "description": "Auto imported from components/About/SmallLanding.vue"
+  },
+  "JoinSectionOne": {
+    "description": "Auto imported from components/Join/JoinSectionOne.vue"
+  },
+  "PeopleTeam": {
+    "description": "Auto imported from components/People/Team.vue"
+  },
+  "Publication": {
+    "description": "Auto imported from components/Publication/Publication.vue"
+  },
+  "LandingSection": {
+    "description": "Auto imported from components/LandingPage/LandingSection.vue"
+  },
+  "LandingPageResearchQuestion": {
+    "description": "Auto imported from components/LandingPage/ResearchQuestion.vue"
+  },
+  "LandingPageSmallPressReleases": {
+    "description": "Auto imported from components/LandingPage/SmallPressReleases.vue"
+  },
+  "LandingPageTeamCarousel": {
+    "description": "Auto imported from components/LandingPage/TeamCarousel.vue"
+  },
+  "PressReleasesAllPressReleases": {
+    "description": "Auto imported from components/Press-Releases/AllPressReleases.vue"
+  },
+  "PressReleasesHeroPost": {
+    "description": "Auto imported from components/Press-Releases/HeroPost.vue"
+  }
+}

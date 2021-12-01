@@ -1,0 +1,51 @@
+[
+  {
+    "name": "About",
+    "path": "/About",
+    "component": "D:\\\\Dev\\\\Git\\\\haps-website-main\\\\pages\\\\About.vue",
+    "chunkName": "pages/About",
+    "_name": "_2145f4b4"
+  },
+  {
+    "name": "join",
+    "path": "/join",
+    "component": "D:\\\\Dev\\\\Git\\\\haps-website-main\\\\pages\\\\join.vue",
+    "chunkName": "pages/join",
+    "_name": "_49157bb3"
+  },
+  {
+    "name": "People",
+    "path": "/People",
+    "component": "D:\\\\Dev\\\\Git\\\\haps-website-main\\\\pages\\\\People.vue",
+    "chunkName": "pages/People",
+    "_name": "_0153fa78"
+  },
+  {
+    "name": "Press-Releases",
+    "path": "/Press-Releases",
+    "component": "D:\\\\Dev\\\\Git\\\\haps-website-main\\\\pages\\\\Press-Releases.vue",
+    "chunkName": "pages/Press-Releases",
+    "_name": "_176eb31f"
+  },
+  {
+    "name": "Privacy-Policy",
+    "path": "/Privacy-Policy",
+    "component": "D:\\\\Dev\\\\Git\\\\haps-website-main\\\\pages\\\\Privacy-Policy.vue",
+    "chunkName": "pages/Privacy-Policy",
+    "_name": "_289a2220"
+  },
+  {
+    "name": "Publications",
+    "path": "/Publications",
+    "component": "D:\\\\Dev\\\\Git\\\\haps-website-main\\\\pages\\\\Publications.vue",
+    "chunkName": "pages/Publications",
+    "_name": "_8be32220"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Dev\\\\Git\\\\haps-website-main\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6ce8a0ce"
+  }
+]
